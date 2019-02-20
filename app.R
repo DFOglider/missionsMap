@@ -8,7 +8,7 @@ library(RCurl)
 library(geosphere)
 library(XML)
 library(stringr)
-setwd( "C:/Users/BelzileM/Documents/Gliders/Rdata/map")
+#setwd( "C:/Users/BelzileM/Documents/Gliders/Rdata/map") # comment out for other users
 
 
 dir <- "./KML"
