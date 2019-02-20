@@ -68,7 +68,6 @@ ui <- fluidPage(
       checkboxGroupInput("mission", 
                          h3("Glider missions"), 
                          choices = m),
-      verbatimTextOutput("value"),
       actionButton(inputId = 'plot',
                    label = 'Plot tracks')
     )#closes wellpanel
@@ -88,7 +87,6 @@ server <- function(input, output) {
   # download data and load when actionButton clicked
   # make plots too
   observeEvent(input$plot,{
-    output$value <- renderPrint({ input$mission })
    
     ok <- as.numeric(input$mission)
     df <- data.frame(longitude=unlist(mlon[ok]),
@@ -98,7 +96,6 @@ server <- function(input, output) {
     
     # map groups
     map_wp <- "Line waypoints"
-    map_kml <- 'Glider surfacing'
     
     map <- leaflet(as.data.frame(cbind(mlon[[1]], mlat[[1]])))%>%
         addProviderTiles(providers$Esri.OceanBasemap) %>%
@@ -124,23 +121,14 @@ server <- function(input, output) {
                  position = 'bottomleft') %>%
 
       #map_kml
-      # positions from kml
-      addCircleMarkers(lng = mlon[[1]], lat = mlat[[1]],
-                       radius = 4, fillOpacity = .4, stroke = F,
-                       color = mcolors,
-                       group = map_kml)%>%
-      # line track for kml
-      addPolylines(lng = mlon[[1]], lat = mlat[[1]],
-                   col = mcolors,
-                   weight = 3) %>%
+      
      
       {
        for(i in unique(df$group)){
       . <- addPolylines(., lng = df$longitude[df$group == i],
                             lat = df$latitude[df$group == i],
-                            group = map_kml,
-                            col=mcolors[i],
-                            weight = 2)
+                            col=mcolors[ok[i]],
+                            weight = 4, opacity = 1)
                      }
                      return (.)
                    } %>%
@@ -168,9 +156,7 @@ server <- function(input, output) {
      
       
       # layer control legend
-      addLayersControl(overlayGroups = c(
-                                         map_kml,
-                                         map_wp),
+      addLayersControl(overlayGroups = c(map_wp),
                        #map_track_kml),
                        options = layersControlOptions(collapsed = FALSE, autoZIndex = FALSE),
                        position = 'bottomright') %>%
