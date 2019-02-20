@@ -1,0 +1,3500 @@
+<!DOCTYPE posFile>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <ScreenOverlay>
+   <name>Logo</name>
+   <Icon>
+    <href>http://www.alseamar-alcen.com/sites/alseamar-alcen.com/files/logo-alseamar_0.png</href>
+   </Icon>
+   <overlayXY y="0" xunits="fraction" x="0" yunits="fraction"/>
+   <screenXY y="0.01" xunits="fraction" x="0.01" yunits="fraction"/>
+   <rotationXY y="0" xunits="fraction" x="0" yunits="fraction"/>
+   <size y="0.05" xunits="fraction" x="0.125" yunits="fraction"/>
+  </ScreenOverlay>
+  <Style id="color_rouge">
+   <IconStyle>
+    <color>ff0000ff</color>
+   </IconStyle>
+  </Style>
+  <Style id="color_vert">
+   <IconStyle>
+    <color>ff00aa00</color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>Mission 32</name>
+   <LineString>
+    <coordinates>-63.3005,44.3174,0
+-63.2995,44.319,0
+-63.2996,44.319,0
+-63.3007,44.3188,0
+-63.3008,44.3189,0
+-63.3022,44.3162,0
+-63.3026,44.316,0
+-63.2997,44.3067,0
+-63.2997,44.307,0
+-63.2996,44.307,0
+-63.2996,44.307,0
+-63.2995,44.307,0
+-63.2992,44.3071,0
+-63.2923,44.2811,0
+-63.2836,44.2615,0
+-63.2664,44.2456,0
+-63.2412,44.2229,0
+-63.2141,44.1996,0
+-63.1927,44.1785,0
+-63.1768,44.1566,0
+-63.1595,44.1346,0
+-63.1377,44.1134,0
+-63.1127,44.0988,0
+-63.0763,44.0819,0
+-63.0348,44.0587,0
+0,0,0
+-63.0156,44.0362,0
+-63.0041,43.9964,0
+-63.0041,43.9963,0
+0,0,0
+-62.9667,43.9733,0
+-62.907,43.9401,0
+-62.907,43.94,0
+-62.8904,43.897,0
+-62.8564,43.8582,0
+-62.8175,43.8349,0
+-62.7684,43.8122,0
+-62.7225,43.79,0
+-62.6941,43.7751,0
+-62.6744,43.7542,0
+-62.6579,43.732,0
+-62.6434,43.7203,0
+-62.6239,43.7142,0
+-62.6028,43.6994,0
+-62.5772,43.682,0
+-62.5612,43.6655,0
+-62.5502,43.6506,0
+-62.5444,43.6376,0
+-62.5381,43.6274,0
+-62.5382,43.6267,0
+-62.5382,43.6266,0
+-62.5384,43.6261,0
+-62.5323,43.6163,0
+-62.5326,43.616,0
+-62.5252,43.6016,0
+-62.5173,43.5847,0
+-62.5128,43.5665,0
+-62.5108,43.5506,0
+-62.5085,43.5401,0
+-62.5048,43.5362,0
+-62.4988,43.5358,0
+-62.4919,43.5314,0
+-62.4782,43.5239,0
+-62.4622,43.5108,0
+-62.4384,43.4988,0
+-62.4171,43.4824,0
+-62.3996,43.4665,0
+-62.3877,43.4532,0
+-62.3788,43.4449,0
+-62.3796,43.4449,0
+-62.3798,43.4449,0
+-62.3801,43.4449,0
+-62.3802,43.4449,0
+-62.3806,43.4451,0
+-62.372,43.4395,0
+-62.3629,43.432,0
+-62.3521,43.4211,0
+-62.3412,43.408,0
+-62.3412,43.4076,0
+-62.3325,43.3933,0
+-62.3236,43.3827,0
+-62.3162,43.3762,0
+-62.3064,43.3753,0
+-62.3075,43.3769,0
+-62.3079,43.3774,0
+-62.3084,43.3779,0
+-62.2986,43.3712,0
+-62.2782,43.3604,0
+-62.2537,43.3417,0
+-62.2311,43.3206,0
+-62.2143,43.3034,0
+-62.2041,43.2939,0
+-62.1941,43.2886,0
+-62.1826,43.2801,0
+-62.1686,43.2656,0
+-62.1549,43.2477,0
+-62.1433,43.2332,0
+-62.1332,43.2229,0
+-62.1213,43.2195,0
+-62.1111,43.2132,0
+-62.1105,43.2133,0
+-62.0846,43.2088,0
+-62.0612,43.1918,0
+-62.0396,43.1708,0
+-62.0228,43.1518,0
+-62.0089,43.1401,0
+-61.9981,43.1345,0
+-61.9844,43.1276,0
+-61.9669,43.1155,0
+-61.9665,43.1154,0
+-61.9461,43.1019,0
+-61.926,43.087,0
+-61.9038,43.0736,0
+-61.8844,43.0624,0
+-61.8828,43.0622,0
+-61.8667,43.0478,0
+-61.8473,43.0287,0
+-61.8239,43.0032,0
+-61.7672,42.9704,0
+-61.6969,42.9288,0
+-61.6743,42.8817,0
+-61.6447,42.94,0
+-61.6441,42.9399,0
+-61.6599,42.9487,0
+-61.6628,42.9661,0
+-61.6646,42.9596,0
+-61.6678,43.0029,0
+-61.6672,43.0032,0
+-61.6985,43.0169,0
+-61.7163,43.0212,0
+-61.7334,43.0226,0
+-61.7562,43.0256,0
+-61.797,43.0371,0
+-61.8277,43.05,0
+-61.8275,43.0502,0
+-61.8265,43.0509,0
+-61.8506,43.0579,0
+-61.8734,43.0593,0
+-61.8978,43.0614,0
+-61.9267,43.0691,0
+-61.9578,43.0857,0
+-61.9855,43.1097,0
+-62.0033,43.1284,0
+-62.0071,43.1373,0
+-62.0123,43.1351,0
+-62.016,43.1365,0
+-62.0311,43.1384,0
+-62.053,43.1487,0
+-62.0776,43.1627,0
+-62.1003,43.1725,0
+-62.1178,43.1789,0
+-62.1174,43.1786,0
+-62.1335,43.1814,0
+-62.1517,43.1853,0
+-62.1735,43.1959,0
+-62.1737,43.196,0
+-62.1981,43.2167,0
+-62.2187,43.2463,0
+-62.2277,43.2709,0
+-62.3448,43.2792,0
+-62.3452,43.2789,0
+-62.3457,43.279,0
+-62.3631,43.2807,0
+-62.3634,43.2805,0
+-62.3772,43.2846,0
+-62.3948,43.2933,0
+-62.4135,43.3127,0
+-62.4294,43.3416,0
+-62.4369,43.3715,0
+-62.4346,43.3941,0
+-62.4281,43.4054,0
+-62.4271,43.4076,0
+-62.4324,43.4049,0
+-62.4284,43.4139,0
+-62.4414,43.4265,0
+-62.4494,43.4436,0
+-62.4652,43.4522,0
+-62.4781,43.4564,0
+-62.4897,43.4563,0
+-62.5029,43.4557,0
+-62.5351,43.4526,0
+-62.5652,43.4636,0
+-62.5915,43.4869,0
+-62.6106,43.5156,0
+-62.6179,43.5337,0
+-62.6205,43.5407,0
+-62.6262,43.5394,0
+-62.6278,43.5447,0
+-62.6281,43.5446,0
+-62.6433,43.5506,0
+-62.6617,43.5665,0
+-62.681,43.5884,0
+-62.6967,43.6061,0
+-62.7108,43.6164,0
+-62.7304,43.6244,0
+-62.7521,43.6381,0
+-62.7767,43.67,0
+-62.7906,43.702,0
+-62.8025,43.7263,0
+-62.825,43.7595,0
+-62.8607,43.7967,0
+-62.8951,43.8201,0
+-62.8925,43.8648,0
+-62.8921,43.8641,0
+-62.892,43.8639,0
+-62.9367,43.8863,0
+-62.937,43.886,0
+-62.9372,43.8859,0
+-62.97,43.9168,0
+-63.0226,43.9481,0
+-63.0226,43.9476,0
+-63.0685,43.9671,0
+-63.1049,43.9934,0
+-63.1373,44.0203,0
+-63.1584,44.0427,0
+-63.1781,44.0602,0
+-63.2018,44.0811,0
+-63.202,44.0812,0
+-63.2348,44.1052,0
+-63.2697,44.1255,0
+-63.2694,44.1255,0
+-63.2923,44.1433,0
+-63.3167,44.1603,0
+-63.3325,44.183,0
+-63.3366,44.1994,0
+-63.3346,44.2181,0
+-63.3376,44.2374,0
+-63.3653,44.2482,0
+-63.3852,44.2567,0
+-63.4006,44.2625,0
+-63.4215,44.2688,0
+-63.4308,44.2742,0
+-63.4278,44.2744,0
+-63.4349,44.2786,0
+-63.4374,44.282,0
+-63.4411,44.2863,0
+-63.4438,44.2898,0
+-63.4455,44.2953,0
+-63.4482,44.3013,0
+-63.4479,44.3087,0
+-63.4497,44.3169,0
+-63.4506,44.3168,0
+-63.4516,44.3167,0
+-63.4521,44.3166,0
+-63.4551,44.3172,0
+-63.4557,44.3172,0
+-63.4605,44.3244,0
+-63.4609,44.3246,0
+-63.4568,44.3305,0
+-63.4552,44.341,0
+-63.4517,44.3517,0
+-63.4494,44.3606,0
+-63.4436,44.3737,0
+-63.4562,44.3856,0
+-63.4584,44.398,0
+-63.4591,44.4093,0
+-63.4567,44.421,0
+-63.4543,44.4316,0
+-63.4539,44.4405,0
+-63.4528,44.4479,0
+-63.4515,44.4558,0
+-63.4499,44.4638,0
+-63.4479,44.4709,0
+-63.4474,44.4708,0
+-63.4473,44.4708,0
+-63.4472,44.4708,0
+-63.4464,44.4764,0
+-63.4438,44.4818,0
+-63.444,44.4818,0
+-63.4416,44.4879,0
+-63.4395,44.4929,0
+-63.4376,44.4972,0
+-63.434,44.5005,0
+-63.432,44.5046,0
+-63.4295,44.5076,0
+-63.4273,44.5095,0
+-63.4262,44.512,0
+-63.4228,44.5132,0
+-63.4223,44.5133,0
+-63.4219,44.5132,0
+-63.422,44.5137,0
+-63.4218,44.5131,0
+-63.4223,44.5131,0
+-63.4226,44.5131,0
+-63.423,44.5131,0
+-63.4235,44.5131,0
+-63.4238,44.5131,0
+-63.4241,44.5131,0
+-63.4244,44.5131,0
+-63.4245,44.5131,0
+-63.4246,44.5136,0
+</coordinates>
+   </LineString>
+  </Placemark>
+  <Placemark id="M32 C1 color_vert">
+   <name>M32 C1</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1 color_rouge">
+   <name>M32 C1</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2996,44.319,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C2 color_vert">
+   <name>M32 C2</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C2 color_rouge">
+   <name>M32 C2</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3008,44.3189,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C4 color_vert">
+   <name>M32 C4</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C4 color_rouge">
+   <name>M32 C4</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3026,44.316,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C6 color_vert">
+   <name>M32 C6</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C6 color_rouge">
+   <name>M32 C6</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2992,44.3071,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C11 color_vert">
+   <name>M32 C11</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2925,44.2812,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C11 color_rouge">
+   <name>M32 C11</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2923,44.2811,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C16 color_vert">
+   <name>M32 C16</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2835,44.2617,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C16 color_rouge">
+   <name>M32 C16</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2836,44.2615,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C21 color_vert">
+   <name>M32 C21</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2663,44.2457,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C21 color_rouge">
+   <name>M32 C21</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2664,44.2456,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C26 color_vert">
+   <name>M32 C26</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2411,44.2228,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C26 color_rouge">
+   <name>M32 C26</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2412,44.2229,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C31 color_vert">
+   <name>M32 C31</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2135,44.1992,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C31 color_rouge">
+   <name>M32 C31</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2141,44.1996,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C36 color_vert">
+   <name>M32 C36</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1936,44.1778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C36 color_rouge">
+   <name>M32 C36</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1927,44.1785,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C41 color_vert">
+   <name>M32 C41</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.177,44.157,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C41 color_rouge">
+   <name>M32 C41</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1768,44.1566,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C46 color_vert">
+   <name>M32 C46</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1595,44.135,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C46 color_rouge">
+   <name>M32 C46</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1595,44.1346,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C51 color_vert">
+   <name>M32 C51</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1375,44.1135,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C51 color_rouge">
+   <name>M32 C51</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1377,44.1134,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C56 color_vert">
+   <name>M32 C56</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1127,44.0988,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C56 color_rouge">
+   <name>M32 C56</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1127,44.0988,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C61 color_vert">
+   <name>M32 C61</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0765,44.0819,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C61 color_rouge">
+   <name>M32 C61</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0763,44.0819,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C66 color_vert">
+   <name>M32 C66</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0348,44.0589,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C66 color_rouge">
+   <name>M32 C66</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0348,44.0587,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C71 color_vert">
+   <name>M32 C71</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0156,44.0361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C71 color_rouge">
+   <name>M32 C71</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0156,44.0362,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C76 color_vert">
+   <name>M32 C76</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C76 color_rouge">
+   <name>M32 C76</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0041,43.9963,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C81 color_vert">
+   <name>M32 C81</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C81 color_rouge">
+   <name>M32 C81</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.9667,43.9733,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C86 color_vert">
+   <name>M32 C86</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C86 color_rouge">
+   <name>M32 C86</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.907,43.94,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C91 color_vert">
+   <name>M32 C91</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8907,43.897,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C91 color_rouge">
+   <name>M32 C91</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8904,43.897,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C96 color_vert">
+   <name>M32 C96</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8562,43.8581,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C96 color_rouge">
+   <name>M32 C96</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8564,43.8582,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C101 color_vert">
+   <name>M32 C101</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8174,43.835,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C101 color_rouge">
+   <name>M32 C101</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8175,43.8349,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C106 color_vert">
+   <name>M32 C106</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.7685,43.8121,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C106 color_rouge">
+   <name>M32 C106</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7684,43.8122,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C111 color_vert">
+   <name>M32 C111</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.7224,43.79,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C111 color_rouge">
+   <name>M32 C111</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7225,43.79,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C116 color_vert">
+   <name>M32 C116</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6942,43.7749,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C116 color_rouge">
+   <name>M32 C116</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6941,43.7751,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C121 color_vert">
+   <name>M32 C121</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6738,43.7541,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C121 color_rouge">
+   <name>M32 C121</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6744,43.7542,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C126 color_vert">
+   <name>M32 C126</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6577,43.7318,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C126 color_rouge">
+   <name>M32 C126</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6579,43.732,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C131 color_vert">
+   <name>M32 C131</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6433,43.7201,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C131 color_rouge">
+   <name>M32 C131</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6434,43.7203,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C136 color_vert">
+   <name>M32 C136</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6242,43.7139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C136 color_rouge">
+   <name>M32 C136</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6239,43.7142,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C141 color_vert">
+   <name>M32 C141</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6033,43.6994,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C141 color_rouge">
+   <name>M32 C141</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6028,43.6994,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C146 color_vert">
+   <name>M32 C146</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5777,43.6821,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C146 color_rouge">
+   <name>M32 C146</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5772,43.682,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C151 color_vert">
+   <name>M32 C151</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5614,43.6657,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C151 color_rouge">
+   <name>M32 C151</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5612,43.6655,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C156 color_vert">
+   <name>M32 C156</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5503,43.6507,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C156 color_rouge">
+   <name>M32 C156</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5502,43.6506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C161 color_vert">
+   <name>M32 C161</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5446,43.6375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C161 color_rouge">
+   <name>M32 C161</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5444,43.6376,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C166 color_vert">
+   <name>M32 C166</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C166 color_rouge">
+   <name>M32 C166</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5384,43.6261,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C171 color_vert">
+   <name>M32 C171</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C171 color_rouge">
+   <name>M32 C171</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5326,43.616,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C176 color_vert">
+   <name>M32 C176</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.525,43.6018,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C176 color_rouge">
+   <name>M32 C176</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5252,43.6016,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C181 color_vert">
+   <name>M32 C181</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.517,43.5851,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C181 color_rouge">
+   <name>M32 C181</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5173,43.5847,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C186 color_vert">
+   <name>M32 C186</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5125,43.5667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C186 color_rouge">
+   <name>M32 C186</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5128,43.5665,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C191 color_vert">
+   <name>M32 C191</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5108,43.5508,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C191 color_rouge">
+   <name>M32 C191</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5108,43.5506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C196 color_vert">
+   <name>M32 C196</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5085,43.5403,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C196 color_rouge">
+   <name>M32 C196</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5085,43.5401,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C201 color_vert">
+   <name>M32 C201</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5048,43.5363,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C201 color_rouge">
+   <name>M32 C201</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5048,43.5362,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C206 color_vert">
+   <name>M32 C206</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5,43.5374,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C206 color_rouge">
+   <name>M32 C206</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4988,43.5358,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C211 color_vert">
+   <name>M32 C211</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4922,43.5315,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C211 color_rouge">
+   <name>M32 C211</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4919,43.5314,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C216 color_vert">
+   <name>M32 C216</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4785,43.5242,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C216 color_rouge">
+   <name>M32 C216</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4782,43.5239,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C221 color_vert">
+   <name>M32 C221</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4624,43.5111,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C221 color_rouge">
+   <name>M32 C221</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4622,43.5108,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C226 color_vert">
+   <name>M32 C226</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4384,43.4992,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C226 color_rouge">
+   <name>M32 C226</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4384,43.4988,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C231 color_vert">
+   <name>M32 C231</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4171,43.4829,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C231 color_rouge">
+   <name>M32 C231</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4171,43.4824,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C236 color_vert">
+   <name>M32 C236</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3995,43.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C236 color_rouge">
+   <name>M32 C236</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3996,43.4665,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C241 color_vert">
+   <name>M32 C241</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3877,43.4534,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C241 color_rouge">
+   <name>M32 C241</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3877,43.4532,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C246 color_vert">
+   <name>M32 C246</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C246 color_rouge">
+   <name>M32 C246</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3806,43.4451,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C251 color_vert">
+   <name>M32 C251</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.372,43.4395,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C251 color_rouge">
+   <name>M32 C251</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.372,43.4395,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C256 color_vert">
+   <name>M32 C256</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3628,43.4322,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C256 color_rouge">
+   <name>M32 C256</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3629,43.432,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C261 color_vert">
+   <name>M32 C261</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3523,43.4213,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C261 color_rouge">
+   <name>M32 C261</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3521,43.4211,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C266 color_vert">
+   <name>M32 C266</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C266 color_rouge">
+   <name>M32 C266</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3412,43.4076,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C271 color_vert">
+   <name>M32 C271</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3323,43.3934,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C271 color_rouge">
+   <name>M32 C271</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3325,43.3933,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C276 color_vert">
+   <name>M32 C276</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3234,43.3828,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C276 color_rouge">
+   <name>M32 C276</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3236,43.3827,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C281 color_vert">
+   <name>M32 C281</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3161,43.3763,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C281 color_rouge">
+   <name>M32 C281</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3162,43.3762,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C286 color_vert">
+   <name>M32 C286</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C286 color_rouge">
+   <name>M32 C286</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3084,43.3779,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C291 color_vert">
+   <name>M32 C291</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2987,43.3711,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C291 color_rouge">
+   <name>M32 C291</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2986,43.3712,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C296 color_vert">
+   <name>M32 C296</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2784,43.3605,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C296 color_rouge">
+   <name>M32 C296</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2782,43.3604,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C301 color_vert">
+   <name>M32 C301</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2541,43.3419,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C301 color_rouge">
+   <name>M32 C301</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2537,43.3417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C306 color_vert">
+   <name>M32 C306</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2313,43.321,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C306 color_rouge">
+   <name>M32 C306</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2311,43.3206,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C311 color_vert">
+   <name>M32 C311</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2143,43.3035,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C311 color_rouge">
+   <name>M32 C311</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2143,43.3034,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C316 color_vert">
+   <name>M32 C316</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2039,43.294,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C316 color_rouge">
+   <name>M32 C316</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2041,43.2939,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C321 color_vert">
+   <name>M32 C321</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1939,43.2887,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C321 color_rouge">
+   <name>M32 C321</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1941,43.2886,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C326 color_vert">
+   <name>M32 C326</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1824,43.2801,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C326 color_rouge">
+   <name>M32 C326</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1826,43.2801,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C331 color_vert">
+   <name>M32 C331</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1683,43.2657,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C331 color_rouge">
+   <name>M32 C331</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1686,43.2656,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C336 color_vert">
+   <name>M32 C336</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1548,43.248,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C336 color_rouge">
+   <name>M32 C336</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1549,43.2477,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C341 color_vert">
+   <name>M32 C341</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1432,43.2332,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C341 color_rouge">
+   <name>M32 C341</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1433,43.2332,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C346 color_vert">
+   <name>M32 C346</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1331,43.2227,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C346 color_rouge">
+   <name>M32 C346</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1332,43.2229,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C351 color_vert">
+   <name>M32 C351</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1215,43.2193,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C351 color_rouge">
+   <name>M32 C351</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1213,43.2195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C356 color_vert">
+   <name>M32 C356</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C356 color_rouge">
+   <name>M32 C356</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1105,43.2133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C361 color_vert">
+   <name>M32 C361</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.085,43.209,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C361 color_rouge">
+   <name>M32 C361</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0846,43.2088,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C366 color_vert">
+   <name>M32 C366</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0615,43.1921,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C366 color_rouge">
+   <name>M32 C366</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0612,43.1918,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C371 color_vert">
+   <name>M32 C371</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0395,43.1715,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C371 color_rouge">
+   <name>M32 C371</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0396,43.1708,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C376 color_vert">
+   <name>M32 C376</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0226,43.1519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C376 color_rouge">
+   <name>M32 C376</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0228,43.1518,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C381 color_vert">
+   <name>M32 C381</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0089,43.1398,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C381 color_rouge">
+   <name>M32 C381</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0089,43.1401,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C386 color_vert">
+   <name>M32 C386</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9984,43.1343,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C386 color_rouge">
+   <name>M32 C386</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9981,43.1345,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C391 color_vert">
+   <name>M32 C391</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9849,43.1276,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C391 color_rouge">
+   <name>M32 C391</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9844,43.1276,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C396 color_vert">
+   <name>M32 C396</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C396 color_rouge">
+   <name>M32 C396</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9665,43.1154,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C401 color_vert">
+   <name>M32 C401</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9465,43.1021,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C401 color_rouge">
+   <name>M32 C401</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9461,43.1019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C406 color_vert">
+   <name>M32 C406</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9264,43.0872,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C406 color_rouge">
+   <name>M32 C406</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.926,43.087,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C411 color_vert">
+   <name>M32 C411</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9043,43.0735,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C411 color_rouge">
+   <name>M32 C411</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9038,43.0736,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C416 color_vert">
+   <name>M32 C416</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C416 color_rouge">
+   <name>M32 C416</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8828,43.0622,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C421 color_vert">
+   <name>M32 C421</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8668,43.0479,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C421 color_rouge">
+   <name>M32 C421</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8667,43.0478,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C426 color_vert">
+   <name>M32 C426</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8475,43.029,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C426 color_rouge">
+   <name>M32 C426</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8473,43.0287,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C431 color_vert">
+   <name>M32 C431</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8241,43.0034,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C431 color_rouge">
+   <name>M32 C431</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8239,43.0032,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C436 color_vert">
+   <name>M32 C436</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.7671,42.9702,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C436 color_rouge">
+   <name>M32 C436</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.7672,42.9704,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C439 color_vert">
+   <name>M32 C439</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6975,42.9288,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C439 color_rouge">
+   <name>M32 C439</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6969,42.9288,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C442 color_vert">
+   <name>M32 C442</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6749,42.8811,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C442 color_rouge">
+   <name>M32 C442</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6743,42.8817,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C445 color_vert">
+   <name>M32 C445</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C445 color_rouge">
+   <name>M32 C445</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6441,42.9399,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C448 color_vert">
+   <name>M32 C448</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6606,42.949,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C448 color_rouge">
+   <name>M32 C448</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6599,42.9487,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C451 color_vert">
+   <name>M32 C451</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6637,42.9653,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C451 color_rouge">
+   <name>M32 C451</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6628,42.9661,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C454 color_vert">
+   <name>M32 C454</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6652,42.9604,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C454 color_rouge">
+   <name>M32 C454</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6646,42.9596,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C457 color_vert">
+   <name>M32 C457</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C457 color_rouge">
+   <name>M32 C457</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6672,43.0032,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C460 color_vert">
+   <name>M32 C460</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6989,43.0168,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C460 color_rouge">
+   <name>M32 C460</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6985,43.0169,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C463 color_vert">
+   <name>M32 C463</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.7166,43.0217,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C463 color_rouge">
+   <name>M32 C463</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.7163,43.0212,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C466 color_vert">
+   <name>M32 C466</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.7336,43.0232,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C466 color_rouge">
+   <name>M32 C466</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.7334,43.0226,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C469 color_vert">
+   <name>M32 C469</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.7561,43.0256,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C469 color_rouge">
+   <name>M32 C469</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.7562,43.0256,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C474 color_vert">
+   <name>M32 C474</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.7971,43.0367,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C474 color_rouge">
+   <name>M32 C474</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.797,43.0371,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C479 color_vert">
+   <name>M32 C479</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C479 color_rouge">
+   <name>M32 C479</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8265,43.0509,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C484 color_vert">
+   <name>M32 C484</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8509,43.0581,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C484 color_rouge">
+   <name>M32 C484</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8506,43.0579,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C489 color_vert">
+   <name>M32 C489</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8736,43.0595,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C489 color_rouge">
+   <name>M32 C489</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8734,43.0593,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C494 color_vert">
+   <name>M32 C494</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8976,43.0616,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C494 color_rouge">
+   <name>M32 C494</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8978,43.0614,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C499 color_vert">
+   <name>M32 C499</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9263,43.069,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C499 color_rouge">
+   <name>M32 C499</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9267,43.0691,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C504 color_vert">
+   <name>M32 C504</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9579,43.0854,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C504 color_rouge">
+   <name>M32 C504</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9578,43.0857,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C509 color_vert">
+   <name>M32 C509</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9861,43.1096,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C509 color_rouge">
+   <name>M32 C509</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9855,43.1097,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C514 color_vert">
+   <name>M32 C514</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0035,43.1285,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C514 color_rouge">
+   <name>M32 C514</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0033,43.1284,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C519 color_vert">
+   <name>M32 C519</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0071,43.1373,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C519 color_rouge">
+   <name>M32 C519</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0071,43.1373,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C524 color_vert">
+   <name>M32 C524</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0125,43.1353,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C524 color_rouge">
+   <name>M32 C524</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0123,43.1351,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C529 color_vert">
+   <name>M32 C529</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.016,43.1365,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C529 color_rouge">
+   <name>M32 C529</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.016,43.1365,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C534 color_vert">
+   <name>M32 C534</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0314,43.1383,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C534 color_rouge">
+   <name>M32 C534</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0311,43.1384,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C539 color_vert">
+   <name>M32 C539</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0532,43.1488,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C539 color_rouge">
+   <name>M32 C539</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.053,43.1487,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C544 color_vert">
+   <name>M32 C544</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0776,43.1627,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C544 color_rouge">
+   <name>M32 C544</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0776,43.1627,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C549 color_vert">
+   <name>M32 C549</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1004,43.1725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C549 color_rouge">
+   <name>M32 C549</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1003,43.1725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C554 color_vert">
+   <name>M32 C554</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C554 color_rouge">
+   <name>M32 C554</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1174,43.1786,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C559 color_vert">
+   <name>M32 C559</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1335,43.1816,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C559 color_rouge">
+   <name>M32 C559</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1335,43.1814,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C564 color_vert">
+   <name>M32 C564</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1517,43.1855,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C564 color_rouge">
+   <name>M32 C564</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1517,43.1853,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C569 color_vert">
+   <name>M32 C569</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C569 color_rouge">
+   <name>M32 C569</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1737,43.196,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C574 color_vert">
+   <name>M32 C574</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.198,43.2166,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C574 color_rouge">
+   <name>M32 C574</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1981,43.2167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C579 color_vert">
+   <name>M32 C579</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.219,43.2458,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C579 color_rouge">
+   <name>M32 C579</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2187,43.2463,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C584 color_vert">
+   <name>M32 C584</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2282,43.2708,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C584 color_rouge">
+   <name>M32 C584</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2277,43.2709,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C600 color_vert">
+   <name>M32 C600</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C600 color_rouge">
+   <name>M32 C600</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3457,43.279,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C605 color_vert">
+   <name>M32 C605</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C605 color_rouge">
+   <name>M32 C605</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3634,43.2805,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C610 color_vert">
+   <name>M32 C610</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.377,43.2848,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C610 color_rouge">
+   <name>M32 C610</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3772,43.2846,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C615 color_vert">
+   <name>M32 C615</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3945,43.2933,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C615 color_rouge">
+   <name>M32 C615</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3948,43.2933,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C620 color_vert">
+   <name>M32 C620</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4134,43.3128,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C620 color_rouge">
+   <name>M32 C620</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4135,43.3127,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C625 color_vert">
+   <name>M32 C625</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4292,43.3416,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C625 color_rouge">
+   <name>M32 C625</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4294,43.3416,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C630 color_vert">
+   <name>M32 C630</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4368,43.3716,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C630 color_rouge">
+   <name>M32 C630</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4369,43.3715,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C635 color_vert">
+   <name>M32 C635</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4348,43.3942,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C635 color_rouge">
+   <name>M32 C635</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4346,43.3941,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C640 color_vert">
+   <name>M32 C640</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4282,43.4055,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C640 color_rouge">
+   <name>M32 C640</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4281,43.4054,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C645 color_vert">
+   <name>M32 C645</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4271,43.4078,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C645 color_rouge">
+   <name>M32 C645</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4271,43.4076,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C650 color_vert">
+   <name>M32 C650</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4325,43.405,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C650 color_rouge">
+   <name>M32 C650</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4324,43.4049,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C655 color_vert">
+   <name>M32 C655</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4286,43.4139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C655 color_rouge">
+   <name>M32 C655</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4284,43.4139,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C660 color_vert">
+   <name>M32 C660</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4414,43.4265,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C660 color_rouge">
+   <name>M32 C660</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4414,43.4265,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C665 color_vert">
+   <name>M32 C665</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4496,43.4435,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C665 color_rouge">
+   <name>M32 C665</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4494,43.4436,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C670 color_vert">
+   <name>M32 C670</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4653,43.4522,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C670 color_rouge">
+   <name>M32 C670</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4652,43.4522,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C675 color_vert">
+   <name>M32 C675</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.478,43.4567,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C675 color_rouge">
+   <name>M32 C675</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4781,43.4564,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C680 color_vert">
+   <name>M32 C680</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4896,43.4566,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C680 color_rouge">
+   <name>M32 C680</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4897,43.4563,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C685 color_vert">
+   <name>M32 C685</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5027,43.4563,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C685 color_rouge">
+   <name>M32 C685</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5029,43.4557,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C690 color_vert">
+   <name>M32 C690</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5344,43.4528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C690 color_rouge">
+   <name>M32 C690</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5351,43.4526,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C695 color_vert">
+   <name>M32 C695</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5646,43.4634,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C695 color_rouge">
+   <name>M32 C695</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5652,43.4636,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C700 color_vert">
+   <name>M32 C700</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5911,43.4868,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C700 color_rouge">
+   <name>M32 C700</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5915,43.4869,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C705 color_vert">
+   <name>M32 C705</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6103,43.5152,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C705 color_rouge">
+   <name>M32 C705</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6106,43.5156,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C710 color_vert">
+   <name>M32 C710</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6181,43.5336,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C710 color_rouge">
+   <name>M32 C710</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6179,43.5337,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C715 color_vert">
+   <name>M32 C715</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6206,43.541,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C715 color_rouge">
+   <name>M32 C715</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6205,43.5407,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C720 color_vert">
+   <name>M32 C720</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6261,43.5398,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C720 color_rouge">
+   <name>M32 C720</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6262,43.5394,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C725 color_vert">
+   <name>M32 C725</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6279,43.5446,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C725 color_rouge">
+   <name>M32 C725</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6281,43.5446,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C730 color_vert">
+   <name>M32 C730</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.643,43.5506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C730 color_rouge">
+   <name>M32 C730</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6433,43.5506,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C735 color_vert">
+   <name>M32 C735</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6612,43.5663,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C735 color_rouge">
+   <name>M32 C735</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6617,43.5665,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C740 color_vert">
+   <name>M32 C740</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6809,43.5881,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C740 color_rouge">
+   <name>M32 C740</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.681,43.5884,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C745 color_vert">
+   <name>M32 C745</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.697,43.606,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C745 color_rouge">
+   <name>M32 C745</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6967,43.6061,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C750 color_vert">
+   <name>M32 C750</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.7111,43.6165,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C750 color_rouge">
+   <name>M32 C750</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7108,43.6164,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C755 color_vert">
+   <name>M32 C755</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.7302,43.6245,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C755 color_rouge">
+   <name>M32 C755</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7304,43.6244,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C760 color_vert">
+   <name>M32 C760</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.7515,43.6382,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C760 color_rouge">
+   <name>M32 C760</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7521,43.6381,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C765 color_vert">
+   <name>M32 C765</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.7767,43.6696,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C765 color_rouge">
+   <name>M32 C765</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7767,43.67,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C770 color_vert">
+   <name>M32 C770</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.791,43.7021,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C770 color_rouge">
+   <name>M32 C770</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7906,43.702,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C775 color_vert">
+   <name>M32 C775</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8027,43.7265,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C775 color_rouge">
+   <name>M32 C775</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8025,43.7263,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C780 color_vert">
+   <name>M32 C780</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8249,43.7596,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C780 color_rouge">
+   <name>M32 C780</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.825,43.7595,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C785 color_vert">
+   <name>M32 C785</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8604,43.7966,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C785 color_rouge">
+   <name>M32 C785</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8607,43.7967,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C790 color_vert">
+   <name>M32 C790</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8953,43.8201,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C790 color_rouge">
+   <name>M32 C790</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8951,43.8201,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C795 color_vert">
+   <name>M32 C795</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C795 color_rouge">
+   <name>M32 C795</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.892,43.8639,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C800 color_vert">
+   <name>M32 C800</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C800 color_rouge">
+   <name>M32 C800</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.9372,43.8859,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C805 color_vert">
+   <name>M32 C805</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.9702,43.9166,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C805 color_rouge">
+   <name>M32 C805</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.97,43.9168,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C810 color_vert">
+   <name>M32 C810</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C810 color_rouge">
+   <name>M32 C810</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0226,43.9476,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C815 color_vert">
+   <name>M32 C815</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0682,43.9672,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C815 color_rouge">
+   <name>M32 C815</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0685,43.9671,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C820 color_vert">
+   <name>M32 C820</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1052,43.9933,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C820 color_rouge">
+   <name>M32 C820</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1049,43.9934,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C825 color_vert">
+   <name>M32 C825</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1375,44.0206,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C825 color_rouge">
+   <name>M32 C825</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1373,44.0203,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C830 color_vert">
+   <name>M32 C830</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1586,44.043,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C830 color_rouge">
+   <name>M32 C830</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1584,44.0427,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C835 color_vert">
+   <name>M32 C835</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1781,44.0603,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C835 color_rouge">
+   <name>M32 C835</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1781,44.0602,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C840 color_vert">
+   <name>M32 C840</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2019,44.0812,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C840 color_rouge">
+   <name>M32 C840</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.202,44.0812,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C845 color_vert">
+   <name>M32 C845</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2343,44.105,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C845 color_rouge">
+   <name>M32 C845</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2348,44.1052,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C850 color_vert">
+   <name>M32 C850</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C850 color_rouge">
+   <name>M32 C850</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2694,44.1255,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C855 color_vert">
+   <name>M32 C855</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2924,44.1433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C855 color_rouge">
+   <name>M32 C855</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2923,44.1433,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C860 color_vert">
+   <name>M32 C860</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3165,44.1604,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C860 color_rouge">
+   <name>M32 C860</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3167,44.1603,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C865 color_vert">
+   <name>M32 C865</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3324,44.1831,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C865 color_rouge">
+   <name>M32 C865</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3325,44.183,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C870 color_vert">
+   <name>M32 C870</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3368,44.1996,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C870 color_rouge">
+   <name>M32 C870</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3366,44.1994,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C875 color_vert">
+   <name>M32 C875</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3348,44.2184,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C875 color_rouge">
+   <name>M32 C875</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3346,44.2181,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C880 color_vert">
+   <name>M32 C880</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3375,44.2374,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C880 color_rouge">
+   <name>M32 C880</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3376,44.2374,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C885 color_vert">
+   <name>M32 C885</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3651,44.2482,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C885 color_rouge">
+   <name>M32 C885</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3653,44.2482,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C890 color_vert">
+   <name>M32 C890</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3849,44.2566,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C890 color_rouge">
+   <name>M32 C890</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3852,44.2567,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C895 color_vert">
+   <name>M32 C895</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4007,44.2627,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C895 color_rouge">
+   <name>M32 C895</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4006,44.2625,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C900 color_vert">
+   <name>M32 C900</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4216,44.2689,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C900 color_rouge">
+   <name>M32 C900</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4215,44.2688,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C905 color_vert">
+   <name>M32 C905</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4309,44.2743,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C905 color_rouge">
+   <name>M32 C905</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4308,44.2742,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C910 color_vert">
+   <name>M32 C910</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4278,44.2746,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C910 color_rouge">
+   <name>M32 C910</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4278,44.2744,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C915 color_vert">
+   <name>M32 C915</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4348,44.279,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C915 color_rouge">
+   <name>M32 C915</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4349,44.2786,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C920 color_vert">
+   <name>M32 C920</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4372,44.2822,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C920 color_rouge">
+   <name>M32 C920</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4374,44.282,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C925 color_vert">
+   <name>M32 C925</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4407,44.2866,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C925 color_rouge">
+   <name>M32 C925</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4411,44.2863,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C930 color_vert">
+   <name>M32 C930</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4435,44.2901,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C930 color_rouge">
+   <name>M32 C930</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4438,44.2898,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C935 color_vert">
+   <name>M32 C935</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4452,44.2955,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C935 color_rouge">
+   <name>M32 C935</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4455,44.2953,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C940 color_vert">
+   <name>M32 C940</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4477,44.3015,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C940 color_rouge">
+   <name>M32 C940</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4482,44.3013,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C945 color_vert">
+   <name>M32 C945</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4475,44.3088,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C945 color_rouge">
+   <name>M32 C945</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4479,44.3087,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C950 color_vert">
+   <name>M32 C950</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C950 color_rouge">
+   <name>M32 C950</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4521,44.3166,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C951 color_vert">
+   <name>M32 C951</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C951 color_rouge">
+   <name>M32 C951</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4557,44.3172,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C956 color_vert">
+   <name>M32 C956</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C956 color_rouge">
+   <name>M32 C956</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4609,44.3246,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C961 color_vert">
+   <name>M32 C961</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4567,44.3305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C961 color_rouge">
+   <name>M32 C961</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4568,44.3305,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C966 color_vert">
+   <name>M32 C966</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4552,44.341,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C966 color_rouge">
+   <name>M32 C966</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4552,44.341,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C971 color_vert">
+   <name>M32 C971</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4517,44.3519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C971 color_rouge">
+   <name>M32 C971</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4517,44.3517,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C976 color_vert">
+   <name>M32 C976</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4491,44.361,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C976 color_rouge">
+   <name>M32 C976</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4494,44.3606,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C981 color_vert">
+   <name>M32 C981</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4432,44.3738,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C981 color_rouge">
+   <name>M32 C981</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4436,44.3737,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C986 color_vert">
+   <name>M32 C986</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4559,44.3857,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C986 color_rouge">
+   <name>M32 C986</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4562,44.3856,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C991 color_vert">
+   <name>M32 C991</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4579,44.3981,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C991 color_rouge">
+   <name>M32 C991</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4584,44.398,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C996 color_vert">
+   <name>M32 C996</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4588,44.4093,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C996 color_rouge">
+   <name>M32 C996</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4591,44.4093,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1001 color_vert">
+   <name>M32 C1001</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4566,44.421,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1001 color_rouge">
+   <name>M32 C1001</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4567,44.421,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1006 color_vert">
+   <name>M32 C1006</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4541,44.4316,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1006 color_rouge">
+   <name>M32 C1006</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4543,44.4316,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1011 color_vert">
+   <name>M32 C1011</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4538,44.4404,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1011 color_rouge">
+   <name>M32 C1011</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4539,44.4405,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1016 color_vert">
+   <name>M32 C1016</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4528,44.4479,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1016 color_rouge">
+   <name>M32 C1016</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4528,44.4479,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1021 color_vert">
+   <name>M32 C1021</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4517,44.4557,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1021 color_rouge">
+   <name>M32 C1021</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4515,44.4558,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1026 color_vert">
+   <name>M32 C1026</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4501,44.4638,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1026 color_rouge">
+   <name>M32 C1026</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4499,44.4638,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1031 color_vert">
+   <name>M32 C1031</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1031 color_rouge">
+   <name>M32 C1031</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4472,44.4708,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1036 color_vert">
+   <name>M32 C1036</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4464,44.4765,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1036 color_rouge">
+   <name>M32 C1036</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4464,44.4764,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1041 color_vert">
+   <name>M32 C1041</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1041 color_rouge">
+   <name>M32 C1041</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.444,44.4818,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1046 color_vert">
+   <name>M32 C1046</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4415,44.4879,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1046 color_rouge">
+   <name>M32 C1046</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4416,44.4879,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1051 color_vert">
+   <name>M32 C1051</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4395,44.493,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1051 color_rouge">
+   <name>M32 C1051</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4395,44.4929,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1056 color_vert">
+   <name>M32 C1056</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4375,44.4973,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1056 color_rouge">
+   <name>M32 C1056</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4376,44.4972,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1061 color_vert">
+   <name>M32 C1061</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.434,44.5005,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1061 color_rouge">
+   <name>M32 C1061</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.434,44.5005,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1066 color_vert">
+   <name>M32 C1066</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4318,44.5048,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1066 color_rouge">
+   <name>M32 C1066</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.432,44.5046,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1071 color_vert">
+   <name>M32 C1071</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4294,44.5077,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1071 color_rouge">
+   <name>M32 C1071</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4295,44.5076,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1076 color_vert">
+   <name>M32 C1076</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4272,44.5095,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1076 color_rouge">
+   <name>M32 C1076</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4273,44.5095,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1081 color_vert">
+   <name>M32 C1081</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4261,44.5121,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1081 color_rouge">
+   <name>M32 C1081</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4262,44.512,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1086 color_vert">
+   <name>M32 C1086</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4227,44.5133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1086 color_rouge">
+   <name>M32 C1086</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4228,44.5132,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1087 color_vert">
+   <name>M32 C1087</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4222,44.5133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1087 color_rouge">
+   <name>M32 C1087</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4223,44.5133,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1088 color_vert">
+   <name>M32 C1088</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4218,44.5132,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1088 color_rouge">
+   <name>M32 C1088</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4219,44.5132,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1089 color_vert">
+   <name>M32 C1089</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4218,44.5137,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1089 color_rouge">
+   <name>M32 C1089</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.422,44.5137,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1090 color_vert">
+   <name>M32 C1090</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M32 C1090 color_rouge">
+   <name>M32 C1090</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4246,44.5136,0</coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>

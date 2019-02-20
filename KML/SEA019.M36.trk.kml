@@ -1,0 +1,926 @@
+<!DOCTYPE posFile>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <ScreenOverlay>
+   <name>Logo</name>
+   <Icon>
+    <href>http://www.alseamar-alcen.com/sites/alseamar-alcen.com/files/logo-alseamar_0.png</href>
+   </Icon>
+   <overlayXY xunits="fraction" yunits="fraction" y="0" x="0"/>
+   <screenXY xunits="fraction" yunits="fraction" y="0.01" x="0.01"/>
+   <rotationXY xunits="fraction" yunits="fraction" y="0" x="0"/>
+   <size xunits="fraction" yunits="fraction" y="0.05" x="0.125"/>
+  </ScreenOverlay>
+  <Style id="color_rouge">
+   <IconStyle>
+    <color>ff0000ff</color>
+   </IconStyle>
+  </Style>
+  <Style id="color_vert">
+   <IconStyle>
+    <color>ff00aa00</color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>Mission 36</name>
+   <LineString>
+    <coordinates>0,0,0
+-63.4078,44.5208,0
+-63.4072,44.521,0
+-63.4067,44.521,0
+-63.4065,44.5211,0
+-63.4062,44.5211,0
+-63.406,44.521,0
+-63.4049,44.5206,0
+-63.4043,44.5204,0
+-63.4038,44.52,0
+-63.4037,44.52,0
+-63.4014,44.5214,0
+-63.4013,44.5213,0
+-63.3966,44.5216,0
+-63.3963,44.5215,0
+-63.3962,44.5215,0
+-63.3918,44.5217,0
+-63.388,44.5221,0
+-63.3828,44.5221,0
+-63.3776,44.522,0
+-63.3724,44.522,0
+-63.3723,44.522,0
+-63.3679,44.5222,0
+-63.3638,44.5227,0
+-63.3604,44.523,0
+-63.3567,44.5229,0
+-63.3568,44.5231,0
+-63.3543,44.5224,0
+-63.3544,44.5224,0
+-63.3515,44.5223,0
+-63.3438,44.5215,0
+-63.3442,44.5217,0
+-63.3363,44.5206,0
+-63.3372,44.5208,0
+-63.3295,44.5187,0
+-63.3317,44.5194,0
+-63.3324,44.5196,0
+-63.3245,44.5167,0
+-63.3247,44.5167,0
+-63.3159,44.5122,0
+-63.3165,44.5123,0
+-63.3084,44.5079,0
+-63.3006,44.5033,0
+-63.2956,44.499,0
+-63.2928,44.5055,0
+-63.2915,44.5123,0
+-63.2895,44.519,0
+-63.2865,44.5258,0
+-63.2859,44.5256,0
+-63.2858,44.5256,0
+-63.2856,44.5255,0
+-63.291,44.5211,0
+-63.2956,44.5174,0
+-63.2951,44.518,0
+-63.2991,44.5148,0
+-63.3026,44.5125,0
+-63.3017,44.5127,0
+-63.3015,44.5128,0
+-63.3012,44.513,0
+-63.3037,44.5118,0
+-63.3053,44.5104,0
+-63.3066,44.5096,0
+-63.3053,44.5096,0
+-63.3062,44.5083,0
+-63.3083,44.5074,0
+-63.3122,44.5063,0
+-63.318,44.5056,0
+-63.3238,44.5046,0
+-63.3235,44.5045,0
+-63.3322,44.5067,0
+-63.3409,44.5087,0
+-63.3486,44.5103,0
+-63.3554,44.5115,0
+-63.3554,44.5114,0
+-63.3554,44.5114,0
+-63.3554,44.5113,0
+-63.3554,44.5113,0
+-63.3554,44.5113,0
+-63.3627,44.5119,0
+-63.3627,44.5119,0
+-63.3691,44.5134,0
+-63.3757,44.5146,0
+-63.3819,44.517,0
+-63.3896,44.5194,0
+-63.3974,44.5215,0
+-63.404,44.5225,0
+-63.407,44.5195,0
+-63.4049,44.5278,0
+-63.402,44.5247,0
+-63.4026,44.5211,0
+-63.4047,44.5211,0
+-63.4068,44.521,0
+-63.4063,44.5212,0
+-63.4077,44.5213,0
+-63.4075,44.5215,0
+-63.4074,44.5215,0
+-63.4071,44.5216,0
+</coordinates>
+   </LineString>
+  </Placemark>
+  <Placemark id="M36 C1 color_vert">
+   <name>M36 C1</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C1 color_rouge">
+   <name>M36 C1</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.406,44.521,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C2 color_vert">
+   <name>M36 C2</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C2 color_rouge">
+   <name>M36 C2</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4037,44.52,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C3 color_vert">
+   <name>M36 C3</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C3 color_rouge">
+   <name>M36 C3</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4013,44.5213,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C5 color_vert">
+   <name>M36 C5</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C5 color_rouge">
+   <name>M36 C5</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3962,44.5215,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C7 color_vert">
+   <name>M36 C7</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.392,44.5217,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C7 color_rouge">
+   <name>M36 C7</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3918,44.5217,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C9 color_vert">
+   <name>M36 C9</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3882,44.5222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C9 color_rouge">
+   <name>M36 C9</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.388,44.5221,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C11 color_vert">
+   <name>M36 C11</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3828,44.5221,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C11 color_rouge">
+   <name>M36 C11</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3828,44.5221,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C13 color_vert">
+   <name>M36 C13</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3777,44.5219,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C13 color_rouge">
+   <name>M36 C13</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3776,44.522,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C15 color_vert">
+   <name>M36 C15</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C15 color_rouge">
+   <name>M36 C15</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3723,44.522,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C17 color_vert">
+   <name>M36 C17</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3679,44.5221,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C17 color_rouge">
+   <name>M36 C17</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3679,44.5222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C19 color_vert">
+   <name>M36 C19</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.364,44.5226,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C19 color_rouge">
+   <name>M36 C19</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3638,44.5227,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C21 color_vert">
+   <name>M36 C21</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3603,44.5229,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C21 color_rouge">
+   <name>M36 C21</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3604,44.523,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C23 color_vert">
+   <name>M36 C23</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C23 color_rouge">
+   <name>M36 C23</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3568,44.5231,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C25 color_vert">
+   <name>M36 C25</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C25 color_rouge">
+   <name>M36 C25</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3544,44.5224,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C27 color_vert">
+   <name>M36 C27</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3514,44.5223,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C27 color_rouge">
+   <name>M36 C27</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3515,44.5223,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C31 color_vert">
+   <name>M36 C31</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C31 color_rouge">
+   <name>M36 C31</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3442,44.5217,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C35 color_vert">
+   <name>M36 C35</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C35 color_rouge">
+   <name>M36 C35</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3372,44.5208,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C39 color_vert">
+   <name>M36 C39</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C39 color_rouge">
+   <name>M36 C39</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3324,44.5196,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C43 color_vert">
+   <name>M36 C43</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C43 color_rouge">
+   <name>M36 C43</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3247,44.5167,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C47 color_vert">
+   <name>M36 C47</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C47 color_rouge">
+   <name>M36 C47</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3165,44.5123,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C51 color_vert">
+   <name>M36 C51</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3082,44.5078,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C51 color_rouge">
+   <name>M36 C51</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3084,44.5079,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C55 color_vert">
+   <name>M36 C55</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3003,44.5032,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C55 color_rouge">
+   <name>M36 C55</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3006,44.5033,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C59 color_vert">
+   <name>M36 C59</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2925,44.4985,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C59 color_rouge">
+   <name>M36 C59</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2956,44.499,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C63 color_vert">
+   <name>M36 C63</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2927,44.5054,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C63 color_rouge">
+   <name>M36 C63</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2928,44.5055,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C67 color_vert">
+   <name>M36 C67</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2915,44.5123,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C67 color_rouge">
+   <name>M36 C67</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2915,44.5123,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C71 color_vert">
+   <name>M36 C71</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2897,44.519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C71 color_rouge">
+   <name>M36 C71</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2895,44.519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C75 color_vert">
+   <name>M36 C75</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C75 color_rouge">
+   <name>M36 C75</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2856,44.5255,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C79 color_vert">
+   <name>M36 C79</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2913,44.5211,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C79 color_rouge">
+   <name>M36 C79</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.291,44.5211,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C83 color_vert">
+   <name>M36 C83</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C83 color_rouge">
+   <name>M36 C83</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2951,44.518,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C87 color_vert">
+   <name>M36 C87</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2993,44.5146,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C87 color_rouge">
+   <name>M36 C87</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2991,44.5148,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C91 color_vert">
+   <name>M36 C91</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C91 color_rouge">
+   <name>M36 C91</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3012,44.513,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C95 color_vert">
+   <name>M36 C95</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3044,44.5115,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C95 color_rouge">
+   <name>M36 C95</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3037,44.5118,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C99 color_vert">
+   <name>M36 C99</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3058,44.5106,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C99 color_rouge">
+   <name>M36 C99</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3053,44.5104,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C103 color_vert">
+   <name>M36 C103</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C103 color_rouge">
+   <name>M36 C103</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3053,44.5096,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C107 color_vert">
+   <name>M36 C107</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.307,44.5082,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C107 color_rouge">
+   <name>M36 C107</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3062,44.5083,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C111 color_vert">
+   <name>M36 C111</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3091,44.5074,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C111 color_rouge">
+   <name>M36 C111</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3083,44.5074,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C115 color_vert">
+   <name>M36 C115</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3127,44.5062,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C115 color_rouge">
+   <name>M36 C115</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3122,44.5063,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C119 color_vert">
+   <name>M36 C119</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3177,44.5055,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C119 color_rouge">
+   <name>M36 C119</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.318,44.5056,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C123 color_vert">
+   <name>M36 C123</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C123 color_rouge">
+   <name>M36 C123</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3235,44.5045,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C128 color_vert">
+   <name>M36 C128</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3323,44.5067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C128 color_rouge">
+   <name>M36 C128</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3322,44.5067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C133 color_vert">
+   <name>M36 C133</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.341,44.5087,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C133 color_rouge">
+   <name>M36 C133</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3409,44.5087,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C138 color_vert">
+   <name>M36 C138</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3486,44.5103,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C138 color_rouge">
+   <name>M36 C138</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3486,44.5103,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C143 color_vert">
+   <name>M36 C143</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C143 color_rouge">
+   <name>M36 C143</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3554,44.5113,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C148 color_vert">
+   <name>M36 C148</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C148 color_rouge">
+   <name>M36 C148</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3627,44.5119,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C153 color_vert">
+   <name>M36 C153</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3691,44.5134,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C153 color_rouge">
+   <name>M36 C153</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3691,44.5134,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C158 color_vert">
+   <name>M36 C158</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3757,44.5146,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C158 color_rouge">
+   <name>M36 C158</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3757,44.5146,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C163 color_vert">
+   <name>M36 C163</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3819,44.5168,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C163 color_rouge">
+   <name>M36 C163</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3819,44.517,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C168 color_vert">
+   <name>M36 C168</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3895,44.5192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C168 color_rouge">
+   <name>M36 C168</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3896,44.5194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C173 color_vert">
+   <name>M36 C173</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3974,44.5213,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C173 color_rouge">
+   <name>M36 C173</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3974,44.5215,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C178 color_vert">
+   <name>M36 C178</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.404,44.5221,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C178 color_rouge">
+   <name>M36 C178</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.404,44.5225,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C183 color_vert">
+   <name>M36 C183</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4071,44.5192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C183 color_rouge">
+   <name>M36 C183</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.407,44.5195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C188 color_vert">
+   <name>M36 C188</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.405,44.5276,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C188 color_rouge">
+   <name>M36 C188</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4049,44.5278,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C193 color_vert">
+   <name>M36 C193</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4021,44.5245,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C193 color_rouge">
+   <name>M36 C193</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.402,44.5247,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C198 color_vert">
+   <name>M36 C198</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4027,44.5211,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C198 color_rouge">
+   <name>M36 C198</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4026,44.5211,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C200 color_vert">
+   <name>M36 C200</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4049,44.5209,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C200 color_rouge">
+   <name>M36 C200</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4047,44.5211,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C202 color_vert">
+   <name>M36 C202</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C202 color_rouge">
+   <name>M36 C202</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4063,44.5212,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C204 color_vert">
+   <name>M36 C204</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M36 C204 color_rouge">
+   <name>M36 C204</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4071,44.5216,0</coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>

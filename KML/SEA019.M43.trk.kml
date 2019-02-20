@@ -1,0 +1,920 @@
+<!DOCTYPE posFile>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <ScreenOverlay>
+   <name>Logo</name>
+   <Icon>
+    <href>http://www.alseamar-alcen.com/sites/alseamar-alcen.com/files/logo-alseamar_0.png</href>
+   </Icon>
+   <overlayXY y="0" yunits="fraction" x="0" xunits="fraction"/>
+   <screenXY y="0.01" yunits="fraction" x="0.01" xunits="fraction"/>
+   <rotationXY y="0" yunits="fraction" x="0" xunits="fraction"/>
+   <size y="0.05" yunits="fraction" x="0.125" xunits="fraction"/>
+  </ScreenOverlay>
+  <Style id="color_rouge">
+   <IconStyle>
+    <color>ff0000ff</color>
+   </IconStyle>
+  </Style>
+  <Style id="color_vert">
+   <IconStyle>
+    <color>ff00aa00</color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>Mission 43</name>
+   <LineString>
+    <coordinates>-63.4067,44.5218,0
+-63.4056,44.5208,0
+-63.4054,44.5207,0
+-63.404,44.521,0
+-63.4034,44.5209,0
+-63.4038,44.5217,0
+-63.4033,44.5217,0
+-63.4028,44.5217,0
+-63.402,44.5216,0
+-63.4018,44.5216,0
+-63.4012,44.5215,0
+-63.401,44.5215,0
+-63.4002,44.5213,0
+-63.3986,44.5199,0
+-63.3979,44.5198,0
+-63.3975,44.5197,0
+-63.3969,44.5196,0
+-63.3966,44.5195,0
+-63.3951,44.5182,0
+-63.3947,44.5182,0
+-63.3942,44.518,0
+-63.3914,44.5159,0
+-63.3907,44.5157,0
+-63.3902,44.5156,0
+-63.3897,44.5155,0
+-63.3893,44.5154,0
+-63.3877,44.5149,0
+0,0,0
+-63.3868,44.5145,0
+-63.3861,44.5143,0
+-63.3857,44.5141,0
+-63.3849,44.5138,0
+-63.383,44.5115,0
+-63.3826,44.5113,0
+-63.3818,44.511,0
+-63.381,44.5025,0
+-63.3798,44.4936,0
+-63.3789,44.4851,0
+-63.3769,44.4772,0
+-63.3751,44.4674,0
+-63.3723,44.4564,0
+-63.3668,44.4423,0
+-63.3594,44.4262,0
+-63.3539,44.4104,0
+-63.3494,44.3962,0
+-63.3464,44.3827,0
+-63.3421,44.37,0
+-63.3382,44.3548,0
+-63.3301,44.339,0
+-63.3218,44.3199,0
+-63.3216,44.3192,0
+-63.3175,44.2974,0
+-63.3156,44.2856,0
+0,0,0
+-63.316,44.286,0
+-63.3161,44.2861,0
+-63.3161,44.2863,0
+-63.3162,44.2863,0
+-63.3165,44.2866,0
+-63.3166,44.2836,0
+-63.3167,44.2837,0
+-63.3161,44.2803,0
+-63.3162,44.2804,0
+-63.3163,44.2805,0
+-63.2777,44.276,0
+-63.248,44.2606,0
+-63.2183,44.238,0
+-63.1901,44.2129,0
+-63.161,44.1726,0
+-63.1611,44.1724,0
+-63.1351,44.123,0
+-63.127,44.0861,0
+-63.1291,44.0638,0
+-63.1232,44.0435,0
+-63.1259,44.0432,0
+-63.1268,44.0432,0
+-63.131,44.043,0
+-63.1328,44.0429,0
+-63.1334,44.0429,0
+-63.1354,44.0427,0
+-63.1377,44.0426,0
+-63.1408,44.0423,0
+-63.1424,44.0423,0
+-63.1451,44.0419,0
+-63.1476,44.0416,0
+-63.1496,44.0414,0
+-63.1501,44.0413,0
+-63.1514,44.0411,0
+-63.1531,44.0408,0
+-63.1551,44.0405,0
+-63.1599,44.0401,0
+-63.1635,44.0397,0
+-63.1652,44.0395,0
+-63.1672,44.0392,0
+-63.1692,44.0389,0
+-63.172,44.0386,0
+-63.1734,44.0384,0
+-63.1754,44.0382,0
+-63.1796,44.0376,0
+-63.1834,44.0371,0
+-63.1842,44.0371,0
+-63.1875,44.0367,0
+-63.1895,44.0364,0
+-63.1939,44.036,0
+-63.1963,44.0358,0
+-63.1985,44.0354,0
+-63.2009,44.0352,0
+-63.2026,44.0349,0
+-63.2055,44.0347,0
+-63.2076,44.0344,0
+-63.2105,44.0339,0
+-63.2127,44.0337,0
+-63.2162,44.0331,0
+-63.218,44.0329,0
+-63.2198,44.0326,0
+-63.2218,44.0322,0
+-63.2252,44.0316,0
+-63.2287,44.0309,0
+-63.2303,44.0306,0
+-63.2329,44.0301,0
+-63.2354,44.0298,0
+-63.2359,44.0296,0
+-63.2379,44.0292,0
+-63.2385,44.0291,0
+-63.2437,44.0285,0
+-63.2454,44.0283,0
+-63.2493,44.0278,0
+-63.2539,44.0272,0
+-63.2561,44.027,0
+-63.2585,44.0267,0
+-63.2623,44.0261,0
+-63.2645,44.0257,0
+-63.2696,44.0248,0
+-63.2718,44.0245,0
+-63.2755,44.0239,0
+-63.2785,44.0235,0
+-63.2791,44.0233,0
+-63.2828,44.0226,0
+-63.2848,44.0222,0
+-63.2867,44.0219,0
+-63.2911,44.0212,0
+-63.2944,44.0207,0
+-63.2967,44.0204,0
+-63.3049,44.0194,0
+-63.3098,44.0187,0
+-63.3128,44.0184,0
+-63.3144,44.0182,0
+-63.318,44.018,0
+-63.3196,44.0178,0
+-63.3239,44.0173,0
+-63.3279,44.0168,0
+-63.3295,44.0167,0
+-63.3305,44.0166,0
+-63.3323,44.0166,0
+-63.3331,44.0165,0
+-63.3366,44.0162,0
+-63.3377,44.0162,0
+-63.3405,44.0159,0
+-63.3443,44.0156,0
+-63.3512,44.0149,0
+-63.3523,44.0148,0
+-63.3569,44.0145,0
+-63.3595,44.0143,0
+-63.3608,44.0142,0
+-63.364,44.0141,0
+-63.3668,44.014,0
+-63.3713,44.0136,0
+-63.3747,44.0136,0
+-63.3811,44.0133,0
+-63.3851,44.0131,0
+-63.3879,44.013,0
+-63.3948,44.0134,0
+-63.3968,44.0134,0
+-63.3976,44.0134,0
+-63.4003,44.0134,0
+-63.4039,44.0136,0
+-63.4064,44.0138,0
+-63.4107,44.014,0
+-63.4188,44.0142,0
+-63.4202,44.0143,0
+-63.423,44.0143,0
+-63.4264,44.0145,0
+-63.4292,44.0147,0
+0,0,0
+-63.5354,44.023,0
+-63.5381,44.0237,0
+-63.5396,44.0242,0
+-63.5415,44.0249,0
+-63.5433,44.0256,0
+-63.5446,44.026,0
+0,0,0
+-63.548,44.0272,0
+-63.5485,44.0275,0
+-63.5511,44.0285,0
+-63.553,44.0293,0
+-63.5546,44.0299,0
+-63.5564,44.0307,0
+-63.5574,44.0312,0
+-63.5582,44.0316,0
+-63.56,44.0325,0
+-63.5607,44.0328,0
+-63.5617,44.0334,0
+-63.5634,44.0342,0
+-63.5639,44.0345,0
+-63.5654,44.0353,0
+-63.5665,44.036,0
+-63.5668,44.0361,0
+-63.5685,44.0371,0
+-63.5691,44.0375,0
+-63.57,44.038,0
+-63.5709,44.0387,0
+-63.5727,44.0399,0
+-63.5738,44.0407,0
+-63.5742,44.041,0
+-63.5744,44.0412,0
+-63.5749,44.0416,0
+-63.5757,44.0421,0
+-63.5766,44.0427,0
+-63.5773,44.0433,0
+-63.5778,44.0436,0
+-63.5785,44.044,0
+-63.5792,44.0446,0
+-63.5799,44.045,0
+-63.5807,44.0454,0
+-63.5816,44.0461,0
+-63.5819,44.0463,0
+-63.5828,44.047,0
+-63.5829,44.047,0
+-63.5846,44.0484,0
+-63.5855,44.0489,0
+-63.5861,44.0495,0
+-63.5864,44.0497,0
+-63.5884,44.051,0
+-63.5887,44.0512,0
+-63.5895,44.0518,0
+-63.59,44.0521,0
+-63.5902,44.0523,0
+-63.5909,44.0528,0
+-63.5913,44.0531,0
+-63.5917,44.0535,0
+-63.5922,44.0538,0
+-63.5929,44.0543,0
+-63.6091,44.0584,0
+-63.6095,44.0583,0
+-63.6098,44.0581,0
+-63.6101,44.058,0
+-63.6418,44.034,0
+-63.6424,44.0338,0
+-63.643,44.0335,0
+-63.6439,44.0333,0
+-63.6454,44.0328,0
+-63.6457,44.0327,0
+-63.6458,44.0326,0
+0,0,0
+-63.647,44.0322,0
+-63.6486,44.0318,0
+-63.65,44.0313,0
+-63.6517,44.0306,0
+-63.6527,44.0303,0
+-63.6534,44.0301,0
+-63.655,44.0297,0
+-63.6557,44.0295,0
+-63.6563,44.0293,0
+-63.6572,44.0291,0
+-63.6581,44.029,0
+-63.6592,44.0287,0
+-63.661,44.0284,0
+-63.6624,44.0281,0
+-63.6634,44.0279,0
+-63.6639,44.0279,0
+-63.6673,44.0271,0
+-63.6684,44.0269,0
+-63.6691,44.0267,0
+-63.6702,44.0267,0
+-63.6709,44.0266,0
+-63.6718,44.0264,0
+-63.6751,44.0261,0
+-63.6761,44.026,0
+-63.6767,44.0259,0
+-63.6776,44.0258,0
+-63.6781,44.0256,0
+-63.679,44.0255,0
+-63.6803,44.0254,0
+-63.6809,44.0254,0
+-63.6826,44.0254,0
+-63.6836,44.0254,0
+-63.6853,44.0251,0
+-63.6867,44.025,0
+-63.6875,44.0249,0
+-63.7212,44.0243,0
+-63.7221,44.0243,0
+-63.7386,44.0241,0
+-63.7394,44.0241,0
+-63.7397,44.0241,0
+-63.7406,44.024,0
+-63.741,44.0239,0
+-63.7417,44.0239,0
+-63.7424,44.0238,0
+-63.743,44.0238,0
+-63.744,44.0237,0
+-63.7449,44.0236,0
+-63.7453,44.0235,0
+-63.7455,44.0235,0
+-63.7469,44.0232,0
+-63.748,44.023,0
+-63.7483,44.0229,0
+-63.7499,44.0225,0
+-63.7505,44.0224,0
+-63.7511,44.0221,0
+-63.7521,44.0218,0
+-63.7525,44.0218,0
+-63.7534,44.0216,0
+-63.754,44.0214,0
+-63.7552,44.021,0
+-63.7565,44.0205,0
+-63.7567,44.0205,0
+-63.7575,44.0203,0
+-63.7587,44.0199,0
+-63.7595,44.0197,0
+-63.7602,44.0194,0
+-63.7608,44.0192,0
+-63.7615,44.0189,0
+-63.7617,44.0189,0
+-63.7634,44.0183,0
+-63.7639,44.0181,0
+-63.7648,44.0179,0
+-63.7677,44.0169,0
+-63.7683,44.0166,0
+-63.7687,44.0164,0
+-63.7704,44.0154,0
+-63.7707,44.0153,0
+-63.7709,44.0151,0
+-63.7716,44.0149,0
+-63.7728,44.0142,0
+-63.7733,44.014,0
+-63.7738,44.0137,0
+-63.7747,44.0133,0
+-63.7752,44.0131,0
+-63.7763,44.0124,0
+-63.7766,44.0122,0
+-63.777,44.0121,0
+-63.7781,44.0114,0
+-63.7792,44.0108,0
+-63.7805,44.0101,0
+-63.7811,44.0097,0
+-63.7817,44.0093,0
+-63.7831,44.0087,0
+-63.7835,44.0084,0
+-63.784,44.0082,0
+-63.785,44.0077,0
+-63.7853,44.0076,0
+-63.7869,44.0068,0
+-63.7872,44.0067,0
+-63.7879,44.0065,0
+-63.7894,44.0059,0
+-63.791,44.0053,0
+-63.7922,44.0049,0
+-63.7927,44.0047,0
+-63.7941,44.0042,0
+-63.7949,44.004,0
+-63.7952,44.0038,0
+-63.7964,44.0035,0
+-63.7968,44.0034,0
+-63.7992,44.0026,0
+-63.7997,44.0025,0
+-63.8004,44.0022,0
+-63.8013,44.002,0
+-63.8021,44.0018,0
+-63.8036,44.001,0
+-63.8051,43.9997,0
+-63.8052,43.9995,0
+</coordinates>
+   </LineString>
+  </Placemark>
+  <Placemark id="M43 C1 color_vert">
+   <name>M43 C1</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C1 color_rouge">
+   <name>M43 C1</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4054,44.5207,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C2 color_vert">
+   <name>M43 C2</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C2 color_rouge">
+   <name>M43 C2</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4034,44.5209,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C3 color_vert">
+   <name>M43 C3</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C3 color_rouge">
+   <name>M43 C3</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4002,44.5213,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C5 color_vert">
+   <name>M43 C5</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C5 color_rouge">
+   <name>M43 C5</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3966,44.5195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C7 color_vert">
+   <name>M43 C7</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C7 color_rouge">
+   <name>M43 C7</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3942,44.518,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C9 color_vert">
+   <name>M43 C9</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C9 color_rouge">
+   <name>M43 C9</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3849,44.5138,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C11 color_vert">
+   <name>M43 C11</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C11 color_rouge">
+   <name>M43 C11</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3818,44.511,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C16 color_vert">
+   <name>M43 C16</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3811,44.5025,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C16 color_rouge">
+   <name>M43 C16</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.381,44.5025,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C21 color_vert">
+   <name>M43 C21</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3798,44.4937,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C21 color_rouge">
+   <name>M43 C21</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3798,44.4936,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C26 color_vert">
+   <name>M43 C26</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3788,44.4852,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C26 color_rouge">
+   <name>M43 C26</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3789,44.4851,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C31 color_vert">
+   <name>M43 C31</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3769,44.4773,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C31 color_rouge">
+   <name>M43 C31</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3769,44.4772,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C36 color_vert">
+   <name>M43 C36</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3749,44.4676,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C36 color_rouge">
+   <name>M43 C36</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3751,44.4674,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C41 color_vert">
+   <name>M43 C41</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3723,44.4566,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C41 color_rouge">
+   <name>M43 C41</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3723,44.4564,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C46 color_vert">
+   <name>M43 C46</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3668,44.4426,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C46 color_rouge">
+   <name>M43 C46</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3668,44.4423,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C51 color_vert">
+   <name>M43 C51</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3593,44.4264,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C51 color_rouge">
+   <name>M43 C51</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3594,44.4262,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C56 color_vert">
+   <name>M43 C56</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3538,44.4105,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C56 color_rouge">
+   <name>M43 C56</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3539,44.4104,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C61 color_vert">
+   <name>M43 C61</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3494,44.3963,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C61 color_rouge">
+   <name>M43 C61</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3494,44.3962,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C66 color_vert">
+   <name>M43 C66</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3463,44.3828,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C66 color_rouge">
+   <name>M43 C66</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3464,44.3827,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C71 color_vert">
+   <name>M43 C71</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.342,44.3701,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C71 color_rouge">
+   <name>M43 C71</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3421,44.37,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C76 color_vert">
+   <name>M43 C76</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3381,44.355,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C76 color_rouge">
+   <name>M43 C76</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3382,44.3548,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C81 color_vert">
+   <name>M43 C81</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3302,44.3392,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C81 color_rouge">
+   <name>M43 C81</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3301,44.339,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C86 color_vert">
+   <name>M43 C86</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C86 color_rouge">
+   <name>M43 C86</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3216,44.3192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C91 color_vert">
+   <name>M43 C91</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3176,44.2975,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C91 color_rouge">
+   <name>M43 C91</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3175,44.2974,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C94 color_vert">
+   <name>M43 C94</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C94 color_rouge">
+   <name>M43 C94</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3165,44.2866,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C95 color_vert">
+   <name>M43 C95</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C95 color_rouge">
+   <name>M43 C95</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3167,44.2837,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C96 color_vert">
+   <name>M43 C96</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C96 color_rouge">
+   <name>M43 C96</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3163,44.2805,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C101 color_vert">
+   <name>M43 C101</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2778,44.2759,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C101 color_rouge">
+   <name>M43 C101</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2777,44.276,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C106 color_vert">
+   <name>M43 C106</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2482,44.2606,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C106 color_rouge">
+   <name>M43 C106</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.248,44.2606,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C111 color_vert">
+   <name>M43 C111</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2185,44.2379,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C111 color_rouge">
+   <name>M43 C111</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2183,44.238,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C116 color_vert">
+   <name>M43 C116</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.19,44.213,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C116 color_rouge">
+   <name>M43 C116</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1901,44.2129,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C121 color_vert">
+   <name>M43 C121</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C121 color_rouge">
+   <name>M43 C121</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1611,44.1724,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C126 color_vert">
+   <name>M43 C126</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1339,44.1233,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C126 color_rouge">
+   <name>M43 C126</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1351,44.123,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C131 color_vert">
+   <name>M43 C131</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1261,44.086,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C131 color_rouge">
+   <name>M43 C131</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.127,44.0861,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C136 color_vert">
+   <name>M43 C136</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1278,44.0637,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C136 color_rouge">
+   <name>M43 C136</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1291,44.0638,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C141 color_vert">
+   <name>M43 C141</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C141 color_rouge">
+   <name>M43 C141</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2791,44.0233,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C142 color_vert">
+   <name>M43 C142</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C142 color_rouge">
+   <name>M43 C142</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2867,44.0219,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C143 color_vert">
+   <name>M43 C143</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M43 C143 color_rouge">
+   <name>M43 C143</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.8052,43.9995,0</coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>

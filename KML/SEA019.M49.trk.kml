@@ -1,0 +1,692 @@
+<!DOCTYPE posFile>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <ScreenOverlay>
+   <name>Logo</name>
+   <Icon>
+    <href>http://www.alseamar-alcen.com/sites/alseamar-alcen.com/files/logo-alseamar_0.png</href>
+   </Icon>
+   <overlayXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+   <screenXY x="0.01" xunits="fraction" y="0.01" yunits="fraction"/>
+   <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+   <size x="0.125" xunits="fraction" y="0.05" yunits="fraction"/>
+  </ScreenOverlay>
+  <Style id="color_rouge">
+   <IconStyle>
+    <color>ff0000ff</color>
+   </IconStyle>
+  </Style>
+  <Style id="color_vert">
+   <IconStyle>
+    <color>ff00aa00</color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>Mission 49</name>
+   <LineString>
+    <coordinates>-63.3701,44.4776,0
+-63.3699,44.4777,0
+-63.3699,44.4777,0
+-63.3702,44.4777,0
+-63.3702,44.4778,0
+-63.3702,44.4778,0
+-63.3715,44.477,0
+-63.3727,44.4761,0
+-63.3727,44.4762,0
+-63.371,44.4723,0
+-63.3709,44.4725,0
+-63.3706,44.4728,0
+-63.3706,44.473,0
+-63.3704,44.4733,0
+-63.366,44.4637,0
+-63.3621,44.4532,0
+-63.3589,44.4394,0
+-63.3547,44.428,0
+-63.3485,44.4143,0
+-63.3479,44.4142,0
+-63.3392,44.4006,0
+-63.3302,44.3869,0
+-63.3299,44.3864,0
+-63.3296,44.3859,0
+-63.329,44.3852,0
+-63.3286,44.3847,0
+-63.3282,44.3843,0
+-63.3283,44.3824,0
+-63.3259,44.3787,0
+-63.3151,44.3615,0
+-63.3139,44.347,0
+-63.3152,44.3407,0
+-63.3169,44.3404,0
+-63.3183,44.3402,0
+-63.3207,44.3398,0
+-63.3225,44.3394,0
+-63.3238,44.3393,0
+-63.3263,44.3392,0
+-63.327,44.3391,0
+-63.3452,44.3532,0
+-63.3544,44.3685,0
+-63.3661,44.376,0
+-63.3741,44.3837,0
+-63.3835,44.3931,0
+-63.3913,44.4038,0
+-63.3985,44.416,0
+-63.4041,44.4295,0
+-63.4032,44.429,0
+-63.4031,44.4289,0
+-63.4053,44.4408,0
+-63.4051,44.4528,0
+-63.4044,44.4606,0
+-63.404,44.4667,0
+-63.4024,44.4725,0
+-63.4031,44.4778,0
+-63.4034,44.4829,0
+-63.4054,44.4885,0
+-63.4068,44.494,0
+-63.409,44.5001,0
+-63.4111,44.5048,0
+-63.4115,44.5113,0
+-63.4109,44.5162,0
+-63.4111,44.5207,0
+-63.4066,44.5229,0
+-63.4058,44.5223,0
+-63.4076,44.5223,0
+-63.4076,44.5221,0
+-63.4076,44.5221,0
+-63.4076,44.522,0
+-63.4076,44.5219,0
+-63.4076,44.5218,0
+-63.4077,44.5217,0
+-63.4078,44.5218,0
+</coordinates>
+   </LineString>
+  </Placemark>
+  <Placemark id="M49 C1 color_vert">
+   <name>M49 C1</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C1 color_rouge">
+   <name>M49 C1</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3699,44.4777,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C2 color_vert">
+   <name>M49 C2</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C2 color_rouge">
+   <name>M49 C2</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3702,44.4778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C3 color_vert">
+   <name>M49 C3</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3715,44.477,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C3 color_rouge">
+   <name>M49 C3</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3715,44.477,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C4 color_vert">
+   <name>M49 C4</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C4 color_rouge">
+   <name>M49 C4</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3727,44.4762,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C6 color_vert">
+   <name>M49 C6</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C6 color_rouge">
+   <name>M49 C6</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3704,44.4733,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C11 color_vert">
+   <name>M49 C11</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3661,44.4636,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C11 color_rouge">
+   <name>M49 C11</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.366,44.4637,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C16 color_vert">
+   <name>M49 C16</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3622,44.4531,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C16 color_rouge">
+   <name>M49 C16</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3621,44.4532,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C21 color_vert">
+   <name>M49 C21</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3591,44.4394,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C21 color_rouge">
+   <name>M49 C21</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3589,44.4394,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C26 color_vert">
+   <name>M49 C26</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3549,44.4281,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C26 color_rouge">
+   <name>M49 C26</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3547,44.428,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C31 color_vert">
+   <name>M49 C31</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C31 color_rouge">
+   <name>M49 C31</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3479,44.4142,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C36 color_vert">
+   <name>M49 C36</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3395,44.4006,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C36 color_rouge">
+   <name>M49 C36</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3392,44.4006,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C41 color_vert">
+   <name>M49 C41</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C41 color_rouge">
+   <name>M49 C41</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3282,44.3843,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C42 color_vert">
+   <name>M49 C42</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3286,44.383,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C42 color_rouge">
+   <name>M49 C42</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3283,44.3824,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C43 color_vert">
+   <name>M49 C43</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.326,44.3789,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C43 color_rouge">
+   <name>M49 C43</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3259,44.3787,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C48 color_vert">
+   <name>M49 C48</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.315,44.3617,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C48 color_rouge">
+   <name>M49 C48</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3151,44.3615,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C53 color_vert">
+   <name>M49 C53</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3135,44.3471,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C53 color_rouge">
+   <name>M49 C53</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3139,44.347,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C56 color_vert">
+   <name>M49 C56</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C56 color_rouge">
+   <name>M49 C56</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.327,44.3391,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C61 color_vert">
+   <name>M49 C61</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3445,44.3532,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C61 color_rouge">
+   <name>M49 C61</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3452,44.3532,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C66 color_vert">
+   <name>M49 C66</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3541,44.3684,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C66 color_rouge">
+   <name>M49 C66</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3544,44.3685,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C71 color_vert">
+   <name>M49 C71</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3657,44.3756,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C71 color_rouge">
+   <name>M49 C71</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3661,44.376,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C76 color_vert">
+   <name>M49 C76</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3741,44.3836,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C76 color_rouge">
+   <name>M49 C76</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3741,44.3837,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C81 color_vert">
+   <name>M49 C81</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3836,44.393,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C81 color_rouge">
+   <name>M49 C81</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3835,44.3931,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C86 color_vert">
+   <name>M49 C86</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3914,44.4038,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C86 color_rouge">
+   <name>M49 C86</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3913,44.4038,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C91 color_vert">
+   <name>M49 C91</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3987,44.4163,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C91 color_rouge">
+   <name>M49 C91</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3985,44.416,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C96 color_vert">
+   <name>M49 C96</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C96 color_rouge">
+   <name>M49 C96</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4031,44.4289,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C101 color_vert">
+   <name>M49 C101</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4054,44.441,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C101 color_rouge">
+   <name>M49 C101</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4053,44.4408,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C106 color_vert">
+   <name>M49 C106</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.405,44.4529,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C106 color_rouge">
+   <name>M49 C106</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4051,44.4528,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C111 color_vert">
+   <name>M49 C111</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4043,44.4606,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C111 color_rouge">
+   <name>M49 C111</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4044,44.4606,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C116 color_vert">
+   <name>M49 C116</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.404,44.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C116 color_rouge">
+   <name>M49 C116</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.404,44.4667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C121 color_vert">
+   <name>M49 C121</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4023,44.4724,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C121 color_rouge">
+   <name>M49 C121</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4024,44.4725,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C126 color_vert">
+   <name>M49 C126</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4031,44.4776,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C126 color_rouge">
+   <name>M49 C126</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4031,44.4778,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C131 color_vert">
+   <name>M49 C131</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4034,44.4828,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C131 color_rouge">
+   <name>M49 C131</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4034,44.4829,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C136 color_vert">
+   <name>M49 C136</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4054,44.4883,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C136 color_rouge">
+   <name>M49 C136</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4054,44.4885,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C141 color_vert">
+   <name>M49 C141</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4068,44.4939,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C141 color_rouge">
+   <name>M49 C141</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4068,44.494,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C146 color_vert">
+   <name>M49 C146</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.409,44.4999,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C146 color_rouge">
+   <name>M49 C146</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.409,44.5001,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C151 color_vert">
+   <name>M49 C151</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4111,44.5047,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C151 color_rouge">
+   <name>M49 C151</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4111,44.5048,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C156 color_vert">
+   <name>M49 C156</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4115,44.5112,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C156 color_rouge">
+   <name>M49 C156</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4115,44.5113,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C161 color_vert">
+   <name>M49 C161</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4109,44.5162,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C161 color_rouge">
+   <name>M49 C161</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4109,44.5162,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C166 color_vert">
+   <name>M49 C166</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4111,44.5207,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C166 color_rouge">
+   <name>M49 C166</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4111,44.5207,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C171 color_vert">
+   <name>M49 C171</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4065,44.5228,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C171 color_rouge">
+   <name>M49 C171</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4066,44.5229,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C172 color_vert">
+   <name>M49 C172</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4058,44.5223,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C172 color_rouge">
+   <name>M49 C172</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4058,44.5223,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C173 color_vert">
+   <name>M49 C173</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M49 C173 color_rouge">
+   <name>M49 C173</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4078,44.5218,0</coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>
