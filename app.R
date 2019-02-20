@@ -45,8 +45,8 @@ for (i in 1:length(files)){
 }
 
 
-m=1:length(missionnames)
-names(m)=missionnames
+m <- 1:length(missionnames)
+names(m) <- missionnames
 
 # halifax line stations
 hfxlon <- c(-63.450000, -63.317000, -62.883000, -62.451000, -62.098000, -61.733000, -61.393945, -62.7527, -61.8326)
@@ -58,7 +58,7 @@ hfxlat <- c(44.400001, 44.267001, 43.883001, 43.479000, 43.183000, 42.850000, 42
 bblon <- c(-52.967, -52.750, -52.650, -52.400, -52.067, -51.830, -51.542, -51.280, -51.017, -50.533, -50.017, -49.500, -49, -48.472, -47.947)
 bblat <- c(48.7300, 48.800, 48.833, 48.917, 49.025, 49.100, 49.190, 49.280, 49.367, 49.517, 49.683, 49.850, 50.000, 50.177, 50.332)
 
-mcolors<-oce.colorsJet(n=length(files))
+mcolors <- oce.colorsJet(n=length(files))
 
 # Define UI for app that draws a histogram ----
 ui <- fluidPage(
@@ -93,7 +93,7 @@ server <- function(input, output) {
     ok <- as.numeric(input$mission)
     df <- data.frame(longitude=unlist(mlon[ok]),
                      latitude=unlist(mlat[ok]),
-                     group=unlist(lapply(1:length(mlat[ok]),function(k) rep(k,length(mlat[[k]])))))
+                     group=unlist(lapply(1:length(mlat[ok]),function(k) rep(k,length(mlat[[ok[k]]])))))
     # leaflet map plot
     
     # map groups
