@@ -1,0 +1,1556 @@
+<!DOCTYPE posFile>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <ScreenOverlay>
+   <name>Logo</name>
+   <Icon>
+    <href>http://www.alseamar-alcen.com/sites/alseamar-alcen.com/files/logo-alseamar_0.png</href>
+   </Icon>
+   <overlayXY yunits="fraction" x="0" y="0" xunits="fraction"/>
+   <screenXY yunits="fraction" x="0.01" y="0.01" xunits="fraction"/>
+   <rotationXY yunits="fraction" x="0" y="0" xunits="fraction"/>
+   <size yunits="fraction" x="0.125" y="0.05" xunits="fraction"/>
+  </ScreenOverlay>
+  <Style id="color_rouge">
+   <IconStyle>
+    <color>ff0000ff</color>
+   </IconStyle>
+  </Style>
+  <Style id="color_vert">
+   <IconStyle>
+    <color>ff00aa00</color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>Mission 58</name>
+   <LineString>
+    <coordinates>-63.2981,44.3675,0
+-63.2957,44.3683,0
+-63.2962,44.3683,0
+-63.2963,44.3682,0
+-63.2968,44.3674,0
+-63.2966,44.3666,0
+-63.2965,44.3666,0
+-63.2962,44.3667,0
+-63.2936,44.365,0
+-63.2876,44.3569,0
+-63.2746,44.3371,0
+-63.2746,44.3371,0
+-63.2649,44.3114,0
+-63.2668,44.2834,0
+-63.2631,44.2572,0
+-63.2449,44.2264,0
+-63.2199,44.1961,0
+-63.2017,44.1633,0
+-63.1841,44.1338,0
+-63.1592,44.1069,0
+-63.1403,44.0878,0
+-63.1177,44.0727,0
+-63.077,44.0467,0
+-63.0199,44.0124,0
+-62.9668,43.9834,0
+-62.9654,43.9822,0
+-62.9236,43.945,0
+-62.8931,43.9136,0
+-62.8597,43.8895,0
+-62.8058,43.8648,0
+-62.7535,43.8486,0
+-62.7165,43.8165,0
+-62.7154,43.8164,0
+-62.7009,43.7826,0
+-62.6828,43.7659,0
+-62.6596,43.7493,0
+-62.6469,43.7289,0
+-62.5962,43.7168,0
+-62.5525,43.6995,0
+-62.5195,43.6749,0
+-62.5197,43.6735,0
+-62.5079,43.6557,0
+-62.5007,43.6509,0
+-62.4834,43.6512,0
+-62.4524,43.6442,0
+-62.3886,43.6064,0
+-62.3529,43.5673,0
+-62.2999,43.5281,0
+-62.2703,43.4561,0
+-62.2475,43.4264,0
+-62.1674,43.3611,0
+-62.1322,43.3195,0
+-62.0624,43.2588,0
+-62.0316,43.1921,0
+-61.9644,43.1749,0
+-61.9273,43.1349,0
+-61.9151,43.0973,0
+-61.9248,43.0814,0
+-61.9136,43.0789,0
+-61.8927,43.0572,0
+-61.8844,43.0185,0
+-61.9093,42.9661,0
+-61.9132,42.9667,0
+-61.7567,42.8791,0
+-61.7067,42.8222,0
+-61.6899,42.7732,0
+-61.6443,42.7423,0
+-61.6,42.6982,0
+-61.5609,42.6621,0
+-61.5037,42.6232,0
+-61.4549,42.5907,0
+-61.4548,42.5905,0
+-61.5034,42.612,0
+-61.555,42.6284,0
+-61.6196,42.6519,0
+-61.6709,42.683,0
+-61.7201,42.7045,0
+-61.7831,42.7354,0
+-61.8399,42.7655,0
+-61.8944,42.8013,0
+-61.9079,42.8513,0
+-61.9066,42.8981,0
+-61.904,42.9419,0
+-61.9046,42.9417,0
+-61.9864,42.9854,0
+-61.9866,42.9853,0
+-61.9868,42.9851,0
+-61.9868,42.9849,0
+-61.987,42.9848,0
+-61.9871,42.9847,0
+-61.987,42.9846,0
+-61.987,42.9845,0
+-61.9869,42.9843,0
+-61.9868,42.9841,0
+-61.9867,42.9839,0
+-61.9865,42.9838,0
+-61.9863,42.9837,0
+-62.0138,43.0145,0
+-62.0272,43.0217,0
+-62.0587,43.0258,0
+-62.1499,43.0665,0
+-62.2027,43.0901,0
+-62.2787,43.1332,0
+-62.2942,43.1761,0
+-62.35,43.193,0
+-62.4102,43.2369,0
+-62.4736,43.2725,0
+-62.4743,43.2732,0
+-62.5043,43.356,0
+-62.5095,43.398,0
+-62.5553,43.4375,0
+-62.5856,43.4956,0
+-62.625,43.5553,0
+-62.6707,43.6442,0
+-62.7606,43.7194,0
+-62.8214,43.75,0
+-62.8801,43.7816,0
+-62.8811,43.7817,0
+-62.9308,43.8267,0
+-62.9699,43.8731,0
+-63.0183,43.9187,0
+-63.0612,43.9599,0
+-63.0987,43.9916,0
+-63.1223,44.0226,0
+-63.1405,44.0532,0
+</coordinates>
+   </LineString>
+  </Placemark>
+  <Placemark id="M58 C1 color_vert">
+   <name>M58 C1</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C1 color_rouge">
+   <name>M58 C1</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2957,44.3683,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C2 color_vert">
+   <name>M58 C2</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C2 color_rouge">
+   <name>M58 C2</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2963,44.3682,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C3 color_vert">
+   <name>M58 C3</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2968,44.3674,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C3 color_rouge">
+   <name>M58 C3</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2968,44.3674,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C4 color_vert">
+   <name>M58 C4</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C4 color_rouge">
+   <name>M58 C4</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2962,44.3667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C5 color_vert">
+   <name>M58 C5</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2937,44.365,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C5 color_rouge">
+   <name>M58 C5</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2936,44.365,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C8 color_vert">
+   <name>M58 C8</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2876,44.3569,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C8 color_rouge">
+   <name>M58 C8</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2876,44.3569,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C14 color_vert">
+   <name>M58 C14</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C14 color_rouge">
+   <name>M58 C14</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2746,44.3371,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C20 color_vert">
+   <name>M58 C20</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2645,44.3116,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C20 color_rouge">
+   <name>M58 C20</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2649,44.3114,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C26 color_vert">
+   <name>M58 C26</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2662,44.2835,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C26 color_rouge">
+   <name>M58 C26</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2668,44.2834,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C32 color_vert">
+   <name>M58 C32</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2627,44.2573,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C32 color_rouge">
+   <name>M58 C32</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2631,44.2572,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C38 color_vert">
+   <name>M58 C38</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2449,44.2264,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C38 color_rouge">
+   <name>M58 C38</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2449,44.2264,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C44 color_vert">
+   <name>M58 C44</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2196,44.1962,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C44 color_rouge">
+   <name>M58 C44</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2199,44.1961,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C50 color_vert">
+   <name>M58 C50</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.2015,44.1634,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C50 color_rouge">
+   <name>M58 C50</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.2017,44.1633,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C56 color_vert">
+   <name>M58 C56</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1841,44.1337,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C56 color_rouge">
+   <name>M58 C56</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1841,44.1338,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C62 color_vert">
+   <name>M58 C62</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1592,44.1069,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C62 color_rouge">
+   <name>M58 C62</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1592,44.1069,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C68 color_vert">
+   <name>M58 C68</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1403,44.088,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C68 color_rouge">
+   <name>M58 C68</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1403,44.0878,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C74 color_vert">
+   <name>M58 C74</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1179,44.0729,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C74 color_rouge">
+   <name>M58 C74</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1177,44.0727,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C80 color_vert">
+   <name>M58 C80</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0773,44.0467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C80 color_rouge">
+   <name>M58 C80</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.077,44.0467,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C86 color_vert">
+   <name>M58 C86</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0205,44.0126,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C86 color_rouge">
+   <name>M58 C86</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0199,44.0124,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C92 color_vert">
+   <name>M58 C92</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C92 color_rouge">
+   <name>M58 C92</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.9654,43.9822,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C98 color_vert">
+   <name>M58 C98</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.9238,43.9452,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C98 color_rouge">
+   <name>M58 C98</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.9236,43.945,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C104 color_vert">
+   <name>M58 C104</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.893,43.9136,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C104 color_rouge">
+   <name>M58 C104</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8931,43.9136,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C110 color_vert">
+   <name>M58 C110</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8598,43.8901,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C110 color_rouge">
+   <name>M58 C110</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8597,43.8895,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C116 color_vert">
+   <name>M58 C116</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8061,43.8649,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C116 color_rouge">
+   <name>M58 C116</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8058,43.8648,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C122 color_vert">
+   <name>M58 C122</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.754,43.8485,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C122 color_rouge">
+   <name>M58 C122</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7535,43.8486,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C128 color_vert">
+   <name>M58 C128</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C128 color_rouge">
+   <name>M58 C128</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7154,43.8164,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C134 color_vert">
+   <name>M58 C134</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.7008,43.7828,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C134 color_rouge">
+   <name>M58 C134</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7009,43.7826,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C140 color_vert">
+   <name>M58 C140</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6823,43.7657,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C140 color_rouge">
+   <name>M58 C140</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6828,43.7659,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C146 color_vert">
+   <name>M58 C146</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6594,43.7489,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C146 color_rouge">
+   <name>M58 C146</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6596,43.7493,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C152 color_vert">
+   <name>M58 C152</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6473,43.7286,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C152 color_rouge">
+   <name>M58 C152</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6469,43.7289,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C162 color_vert">
+   <name>M58 C162</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5968,43.7163,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C162 color_rouge">
+   <name>M58 C162</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5962,43.7168,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C172 color_vert">
+   <name>M58 C172</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5526,43.6992,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C172 color_rouge">
+   <name>M58 C172</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5525,43.6995,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C182 color_vert">
+   <name>M58 C182</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C182 color_rouge">
+   <name>M58 C182</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5197,43.6735,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C192 color_vert">
+   <name>M58 C192</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5073,43.6557,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C192 color_rouge">
+   <name>M58 C192</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5079,43.6557,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C202 color_vert">
+   <name>M58 C202</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5002,43.6505,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C202 color_rouge">
+   <name>M58 C202</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5007,43.6509,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C212 color_vert">
+   <name>M58 C212</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4835,43.6508,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C212 color_rouge">
+   <name>M58 C212</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4834,43.6512,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C222 color_vert">
+   <name>M58 C222</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4522,43.6438,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C222 color_rouge">
+   <name>M58 C222</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4524,43.6442,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C238 color_vert">
+   <name>M58 C238</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3892,43.6067,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C238 color_rouge">
+   <name>M58 C238</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3886,43.6064,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C254 color_vert">
+   <name>M58 C254</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.353,43.5675,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C254 color_rouge">
+   <name>M58 C254</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.3529,43.5673,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C270 color_vert">
+   <name>M58 C270</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2995,43.5284,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C270 color_rouge">
+   <name>M58 C270</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2999,43.5281,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C286 color_vert">
+   <name>M58 C286</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2698,43.4563,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C286 color_rouge">
+   <name>M58 C286</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2703,43.4561,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C302 color_vert">
+   <name>M58 C302</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2474,43.4264,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C302 color_rouge">
+   <name>M58 C302</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2475,43.4264,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C318 color_vert">
+   <name>M58 C318</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1676,43.3614,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C318 color_rouge">
+   <name>M58 C318</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1674,43.3611,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C334 color_vert">
+   <name>M58 C334</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1325,43.3192,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C334 color_rouge">
+   <name>M58 C334</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1322,43.3195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C350 color_vert">
+   <name>M58 C350</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0628,43.2595,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C350 color_rouge">
+   <name>M58 C350</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0624,43.2588,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C366 color_vert">
+   <name>M58 C366</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0314,43.1922,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C366 color_rouge">
+   <name>M58 C366</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0316,43.1921,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C382 color_vert">
+   <name>M58 C382</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.965,43.1749,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C382 color_rouge">
+   <name>M58 C382</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9644,43.1749,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C390 color_vert">
+   <name>M58 C390</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9279,43.1352,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C390 color_rouge">
+   <name>M58 C390</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9273,43.1349,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C398 color_vert">
+   <name>M58 C398</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.915,43.0973,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C398 color_rouge">
+   <name>M58 C398</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9151,43.0973,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C406 color_vert">
+   <name>M58 C406</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9247,43.0813,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C406 color_rouge">
+   <name>M58 C406</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9248,43.0814,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C414 color_vert">
+   <name>M58 C414</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9138,43.0793,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C414 color_rouge">
+   <name>M58 C414</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9136,43.0789,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C422 color_vert">
+   <name>M58 C422</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8925,43.0573,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C422 color_rouge">
+   <name>M58 C422</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8927,43.0572,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C430 color_vert">
+   <name>M58 C430</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8839,43.0185,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C430 color_rouge">
+   <name>M58 C430</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8844,43.0185,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C438 color_vert">
+   <name>M58 C438</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C438 color_rouge">
+   <name>M58 C438</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9132,42.9667,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C446 color_vert">
+   <name>M58 C446</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.7584,42.8798,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C446 color_rouge">
+   <name>M58 C446</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.7567,42.8791,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C448 color_vert">
+   <name>M58 C448</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.7059,42.8253,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C448 color_rouge">
+   <name>M58 C448</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.7067,42.8222,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C450 color_vert">
+   <name>M58 C450</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6891,42.774,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C450 color_rouge">
+   <name>M58 C450</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6899,42.7732,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C452 color_vert">
+   <name>M58 C452</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6457,42.7435,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C452 color_rouge">
+   <name>M58 C452</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6443,42.7423,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C454 color_vert">
+   <name>M58 C454</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6008,42.6994,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C454 color_rouge">
+   <name>M58 C454</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6,42.6982,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C456 color_vert">
+   <name>M58 C456</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.5605,42.6627,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C456 color_rouge">
+   <name>M58 C456</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.5609,42.6621,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C458 color_vert">
+   <name>M58 C458</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.5042,42.6239,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C458 color_rouge">
+   <name>M58 C458</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.5037,42.6232,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C460 color_vert">
+   <name>M58 C460</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C460 color_rouge">
+   <name>M58 C460</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.4548,42.5905,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C462 color_vert">
+   <name>M58 C462</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.5053,42.6131,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C462 color_rouge">
+   <name>M58 C462</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.5034,42.612,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C464 color_vert">
+   <name>M58 C464</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.5554,42.6296,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C464 color_rouge">
+   <name>M58 C464</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.555,42.6284,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C466 color_vert">
+   <name>M58 C466</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6174,42.6526,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C466 color_rouge">
+   <name>M58 C466</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6196,42.6519,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C468 color_vert">
+   <name>M58 C468</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.6718,42.6827,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C468 color_rouge">
+   <name>M58 C468</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.6709,42.683,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C470 color_vert">
+   <name>M58 C470</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.72,42.7048,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C470 color_rouge">
+   <name>M58 C470</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.7201,42.7045,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C472 color_vert">
+   <name>M58 C472</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.7818,42.7366,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C472 color_rouge">
+   <name>M58 C472</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.7831,42.7354,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C474 color_vert">
+   <name>M58 C474</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8392,42.7677,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C474 color_rouge">
+   <name>M58 C474</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8399,42.7655,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C476 color_vert">
+   <name>M58 C476</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.8898,42.8019,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C476 color_rouge">
+   <name>M58 C476</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.8944,42.8013,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C478 color_vert">
+   <name>M58 C478</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.908,42.8518,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C478 color_rouge">
+   <name>M58 C478</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9079,42.8513,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C480 color_vert">
+   <name>M58 C480</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-61.9057,42.8993,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C480 color_rouge">
+   <name>M58 C480</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9066,42.8981,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C482 color_vert">
+   <name>M58 C482</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C482 color_rouge">
+   <name>M58 C482</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9046,42.9417,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C490 color_vert">
+   <name>M58 C490</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C490 color_rouge">
+   <name>M58 C490</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-61.9863,42.9837,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C498 color_vert">
+   <name>M58 C498</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.0144,43.015,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C498 color_rouge">
+   <name>M58 C498</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0138,43.0145,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C506 color_vert">
+   <name>M58 C506</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.027,43.0223,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C506 color_rouge">
+   <name>M58 C506</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0272,43.0217,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C514 color_vert">
+   <name>M58 C514</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.058,43.0261,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C514 color_rouge">
+   <name>M58 C514</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.0587,43.0258,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C530 color_vert">
+   <name>M58 C530</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.1497,43.0663,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C530 color_rouge">
+   <name>M58 C530</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.1499,43.0665,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C546 color_vert">
+   <name>M58 C546</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2028,43.0903,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C546 color_rouge">
+   <name>M58 C546</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2027,43.0901,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C562 color_vert">
+   <name>M58 C562</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2785,43.1332,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C562 color_rouge">
+   <name>M58 C562</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2787,43.1332,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C578 color_vert">
+   <name>M58 C578</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.2945,43.1762,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C578 color_rouge">
+   <name>M58 C578</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.2942,43.1761,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C594 color_vert">
+   <name>M58 C594</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.3498,43.193,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C594 color_rouge">
+   <name>M58 C594</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.35,43.193,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C610 color_vert">
+   <name>M58 C610</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.4098,43.237,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C610 color_rouge">
+   <name>M58 C610</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4102,43.2369,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C626 color_vert">
+   <name>M58 C626</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C626 color_rouge">
+   <name>M58 C626</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.4743,43.2732,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C642 color_vert">
+   <name>M58 C642</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5047,43.3559,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C642 color_rouge">
+   <name>M58 C642</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5043,43.356,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C658 color_vert">
+   <name>M58 C658</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5098,43.3981,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C658 color_rouge">
+   <name>M58 C658</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5095,43.398,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C674 color_vert">
+   <name>M58 C674</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5554,43.4372,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C674 color_rouge">
+   <name>M58 C674</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5553,43.4375,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C690 color_vert">
+   <name>M58 C690</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.5859,43.4955,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C690 color_rouge">
+   <name>M58 C690</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.5856,43.4956,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C706 color_vert">
+   <name>M58 C706</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6253,43.555,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C706 color_rouge">
+   <name>M58 C706</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.625,43.5553,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C722 color_vert">
+   <name>M58 C722</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.6706,43.6439,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C722 color_rouge">
+   <name>M58 C722</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.6707,43.6442,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C738 color_vert">
+   <name>M58 C738</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.7602,43.7195,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C738 color_rouge">
+   <name>M58 C738</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.7606,43.7194,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C744 color_vert">
+   <name>M58 C744</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.8207,43.7501,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C744 color_rouge">
+   <name>M58 C744</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8214,43.75,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C750 color_vert">
+   <name>M58 C750</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C750 color_rouge">
+   <name>M58 C750</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.8811,43.7817,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C756 color_vert">
+   <name>M58 C756</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.9312,43.8266,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C756 color_rouge">
+   <name>M58 C756</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.9308,43.8267,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C762 color_vert">
+   <name>M58 C762</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-62.9705,43.873,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C762 color_rouge">
+   <name>M58 C762</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-62.9699,43.8731,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C768 color_vert">
+   <name>M58 C768</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0186,43.9188,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C768 color_rouge">
+   <name>M58 C768</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0183,43.9187,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C774 color_vert">
+   <name>M58 C774</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0616,43.9601,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C774 color_rouge">
+   <name>M58 C774</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0612,43.9599,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C780 color_vert">
+   <name>M58 C780</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.0983,43.9916,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C780 color_rouge">
+   <name>M58 C780</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.0987,43.9916,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C786 color_vert">
+   <name>M58 C786</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1221,44.0226,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C786 color_rouge">
+   <name>M58 C786</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1223,44.0226,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C792 color_vert">
+   <name>M58 C792</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.1407,44.0534,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M58 C792 color_rouge">
+   <name>M58 C792</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.1405,44.0532,0</coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>

@@ -8,7 +8,7 @@ library(RCurl)
 library(geosphere)
 library(XML)
 library(stringr)
-#setwd( "C:/Users/BelzileM/Documents/Gliders/Rdata/map") # comment out for other users
+setwd( "C:/Users/BelzileM/Documents/Gliders/Rdata/missionsMap") # comment out for other users
 
 
 dir <- "./KML"
@@ -59,6 +59,7 @@ bblon <- c(-52.967, -52.750, -52.650, -52.400, -52.067, -51.830, -51.542, -51.28
 bblat <- c(48.7300, 48.800, 48.833, 48.917, 49.025, 49.100, 49.190, 49.280, 49.367, 49.517, 49.683, 49.850, 50.000, 50.177, 50.332)
 
 mcolors <- oce.colorsJet(n=length(files))
+#mcolors <- oce.colorsCDOM(n=length(files))
 
 # Define UI for app that draws a histogram ----
 ui <- fluidPage(
@@ -135,7 +136,7 @@ server <- function(input, output) {
       # group-less map items
       # halifax line
       addCircleMarkers(lng = hfxlon, lat = hfxlat,
-                       radius = 7, fillOpacity = 0.5, stroke = F,
+                       radius = 7, fillOpacity = 1, stroke = F,
                        color = 'gray48',
                        popup = paste(sep = "<br/>",
                                      #paste0("HL", as.character(1:7)),
@@ -146,7 +147,7 @@ server <- function(input, output) {
                        group = map_wp)%>%
       # bonavista line
       addCircleMarkers(lng = bblon, lat = bblat,
-                       radius = 7, fillOpacity = 0.5, stroke = F,
+                       radius = 7, fillOpacity = 1, stroke = F,
                        color = 'gray48',
                        popup = paste(sep = "<br/>",
                                      paste0('BB', seq(1,15)),
