@@ -1,0 +1,322 @@
+<!DOCTYPE posFile>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <ScreenOverlay>
+   <name>Logo</name>
+   <Icon>
+    <href>http://www.alseamar-alcen.com/sites/alseamar-alcen.com/files/logo-alseamar_0.png</href>
+   </Icon>
+   <overlayXY yunits="fraction" xunits="fraction" y="0" x="0"/>
+   <screenXY yunits="fraction" xunits="fraction" y="0.01" x="0.01"/>
+   <rotationXY yunits="fraction" xunits="fraction" y="0" x="0"/>
+   <size yunits="fraction" xunits="fraction" y="0.05" x="0.125"/>
+  </ScreenOverlay>
+  <Style id="color_rouge">
+   <IconStyle>
+    <color>ff0000ff</color>
+   </IconStyle>
+  </Style>
+  <Style id="color_vert">
+   <IconStyle>
+    <color>ff00aa00</color>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>Mission 60</name>
+   <LineString>
+    <coordinates>-63.368,44.396,0
+-63.3699,44.396,0
+-63.371,44.3959,0
+-63.3754,44.3947,0
+-63.3766,44.3947,0
+-63.3773,44.3946,0
+-63.3781,44.3946,0
+-63.3787,44.3946,0
+-63.3778,44.3935,0
+-63.3802,44.3931,0
+-63.381,44.3931,0
+-63.3832,44.383,0
+-63.3841,44.3721,0
+-63.385,44.3608,0
+-63.3862,44.3508,0
+-63.3851,44.3392,0
+-63.3842,44.3284,0
+-63.3817,44.3175,0
+-63.3883,44.3256,0
+-63.3926,44.3325,0
+-63.3952,44.3396,0
+-63.3949,44.3566,0
+-63.3945,44.375,0
+-63.3946,44.3744,0
+-63.3952,44.3912,0
+-63.4006,44.4084,0
+-63.4087,44.4243,0
+-63.4091,44.4242,0
+-63.4093,44.4242,0
+-63.4096,44.4241,0
+-63.4099,44.424,0
+-63.4104,44.4239,0
+-63.4106,44.4238,0
+-63.4111,44.4238,0
+-63.4115,44.4237,0
+-63.412,44.4235,0
+-63.4126,44.4234,0
+-63.413,44.4233,0
+-63.4138,44.4237,0
+</coordinates>
+   </LineString>
+  </Placemark>
+  <Placemark id="M60 C1 color_vert">
+   <name>M60 C1</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C1 color_rouge">
+   <name>M60 C1</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.371,44.3959,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C2 color_vert">
+   <name>M60 C2</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C2 color_rouge">
+   <name>M60 C2</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3787,44.3946,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C3 color_vert">
+   <name>M60 C3</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C3 color_rouge">
+   <name>M60 C3</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.381,44.3931,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C6 color_vert">
+   <name>M60 C6</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3829,44.3831,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C6 color_rouge">
+   <name>M60 C6</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3832,44.383,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C9 color_vert">
+   <name>M60 C9</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3837,44.3721,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C9 color_rouge">
+   <name>M60 C9</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3841,44.3721,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C12 color_vert">
+   <name>M60 C12</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3847,44.3608,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C12 color_rouge">
+   <name>M60 C12</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.385,44.3608,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C15 color_vert">
+   <name>M60 C15</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3859,44.3508,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C15 color_rouge">
+   <name>M60 C15</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3862,44.3508,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C18 color_vert">
+   <name>M60 C18</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3848,44.3392,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C18 color_rouge">
+   <name>M60 C18</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3851,44.3392,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C21 color_vert">
+   <name>M60 C21</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3837,44.3282,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C21 color_rouge">
+   <name>M60 C21</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3842,44.3284,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C24 color_vert">
+   <name>M60 C24</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3814,44.3175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C24 color_rouge">
+   <name>M60 C24</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3817,44.3175,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C27 color_vert">
+   <name>M60 C27</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3881,44.3256,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C27 color_rouge">
+   <name>M60 C27</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3883,44.3256,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C30 color_vert">
+   <name>M60 C30</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3925,44.3325,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C30 color_rouge">
+   <name>M60 C30</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3926,44.3325,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C33 color_vert">
+   <name>M60 C33</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.3953,44.3396,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C33 color_rouge">
+   <name>M60 C33</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3952,44.3396,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C39 color_vert">
+   <name>M60 C39</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.395,44.3567,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C39 color_rouge">
+   <name>M60 C39</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3949,44.3566,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C45 color_vert">
+   <name>M60 C45</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C45 color_rouge">
+   <name>M60 C45</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3946,44.3744,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C51 color_vert">
+   <name>M60 C51</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.395,44.3913,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C51 color_rouge">
+   <name>M60 C51</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.3952,44.3912,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C57 color_vert">
+   <name>M60 C57</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>-63.4005,44.4085,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C57 color_rouge">
+   <name>M60 C57</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4006,44.4084,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C63 color_vert">
+   <name>M60 C63</name>
+   <styleUrl>#color_vert</styleUrl>
+   <Point>
+    <coordinates>0,0,0</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark id="M60 C63 color_rouge">
+   <name>M60 C63</name>
+   <styleUrl>#color_rouge</styleUrl>
+   <Point>
+    <coordinates>-63.4138,44.4237,0</coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>
