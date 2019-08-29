@@ -68,7 +68,7 @@ ui <- fluidPage(
     column(2, wellPanel(
       checkboxGroupInput("mission", 
                          h3("Glider missions"), 
-                         choices = m),
+                         choices = m, selected = m),
       actionButton(inputId = 'plot',
                    label = 'Plot tracks')
     )#closes wellpanel
