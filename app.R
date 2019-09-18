@@ -65,26 +65,34 @@ mcolors <- oce.colorsJet(n=length(files))
 ui <- fluidPage(
 
   fluidRow(
-    column(2, wellPanel(
-      checkboxGroupInput("mission", 
-                         h3("Glider missions"), 
-                         choices = m, selected = m),
-      actionButton(inputId = 'plot',
-                   label = 'Plot tracks')
-    )#closes wellpanel
-   
-    ), #closes column
-
-  column(10,
-        leafletOutput("map", height = '620px'))
+      column(2, wellPanel(
+                    checkboxInput('selectAll', 'Select all/none'),
+                    checkboxGroupInput("mission", 
+                                       h3("Glider missions"), 
+                                       choices = m),
+                    actionButton(inputId = 'plot',
+                                 label = 'Plot tracks')
+                )#closes wellpanel
+             
+             ), #closes column
+      
+      column(10,
+             leafletOutput("map", height = '620px'))
   ) #closes fluidRow  
 ) #closes ui
 
 
 # Define server
-server <- function(input, output) {
+server <- function(input, output, session) {
   state <- reactiveValues()
-  
+
+  observe({
+      updateCheckboxGroupInput(
+          session, 'mission', choices = m,
+          selected = if (input$selectAll) m
+      )
+  })
+    
   # download data and load when actionButton clicked
   # make plots too
   observeEvent(input$plot,{
