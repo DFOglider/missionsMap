@@ -10,39 +10,92 @@ library(XML)
 library(stringr)
 #setwd( "C:/Users/BelzileM/Documents/Gliders/Rdata/missionsMap") # comment out for other users
 
+useLocal <- TRUE
 
-dir <- "./KML"
-files <- paste(dir, as.list(list.files(path = dir, pattern = '*.trk.kml')), sep = '/')
-mlat<-mlon<- vector(mode='list',length=length(files))
-missionnames<-vector(mode='logical',length=length(files))
-for (i in 1:length(files)){
-  d <- xmlParse(files[i])
-  dx <- xmlToList(d)
-  dxd <- dx$Document
+if (useLocal) {
+    dir <- "./KML"
+    files <- paste(dir, as.list(list.files(path = dir, pattern = '*.trk.kml')), sep = '/')
+    mlat<-mlon<- vector(mode='list',length=length(files))
+    missionnames<-vector(mode='logical',length=length(files))
+    for (i in 1:length(files)){
+        d <- xmlParse(files[i])
+        dx <- xmlToList(d)
+        dxd <- dx$Document
 
-  coord <- dxd[[4]]$LineString$coordinates
-  coordinates <- strsplit(coord, '\n')[[1]]
-  position <- strsplit(coordinates, ',')
+        coord <- dxd[[4]]$LineString$coordinates
+        coordinates <- strsplit(coord, '\n')[[1]]
+        position <- strsplit(coordinates, ',')
 
-  lon <- as.numeric(unlist(lapply(position, function(k) k[1])))
-  lat <- as.numeric(unlist(lapply(position, function(k) k[2])))
+        lon <- as.numeric(unlist(lapply(position, function(k) k[1])))
+        lat <- as.numeric(unlist(lapply(position, function(k) k[2])))
 
-  good <- !(lon == 0 & lat == 0) #remove 0,0 coordinates
+        good <- !(lon == 0 & lat == 0) #remove 0,0 coordinates
 
-  lat <- lat[good]
-  lon <- lon[good]
+        lat <- lat[good]
+        lon <- lon[good]
 
-  good2 <- !(is.na(lon) & is.na(lat))
+        good2 <- !(is.na(lon) & is.na(lat))
 
-  lat <- lat[good2]
-  lon <- lon[good2]
-  
-  mlat[[i]]<-lat
-  mlon[[i]]<-lon
-  
-  # set names of missions from files
-  missionnames[i]<-str_extract(string=files[i],pattern='SEA0[0-9]{2}.M[0-9]{2}')
+        lat <- lat[good2]
+        lon <- lon[good2]
+        
+        mlat[[i]]<-lat
+        mlon[[i]]<-lon
+        
+                                        # set names of missions from files
+        missionnames[i]<-str_extract(string=files[i],pattern='SEA0[0-9]{2}.M[0-9]{2}')
+    }
+} else {
+    ## url <- 'ftp://dfoftp.ocean.dal.ca/pub/dfo/glider'
+    url <- 'ftp://ftp.dfo-mpo.gc.ca/glider'
+    dirs <- getURL(paste(url,'', sep ="/"), ftp.use.epsv = FALSE, dirlistonly = TRUE)
+    dirnamess <- strsplit(dirs, "\r*\n")[[1]]
+    okdir <- which(dirnamess == 'realData')
+    dirnames <- dirnamess[okdir]
+    gliderdirs <- getURL(paste(url, 
+                               dirnames,
+                               '', sep ="/"),
+                         ftp.use.epsv = FALSE, dirlistonly = TRUE)
+    gliderdirnames <- strsplit(gliderdirs, "\r*\n")[[1]]
+    gdnok <- grepl(pattern = 'SEA0[0-9][0-9]', x = gliderdirnames) #find glider directories
+    gliderdirnames <- gliderdirnames[gdnok]
+    getMissions <- function(glider){
+        missiondirs <-  getURL(paste(url, 
+                                     dirnames, 
+                                     glider,
+                                     '', sep ="/"), 
+                               ftp.use.epsv = FALSE, dirlistonly = TRUE)
+        missiondirnames <- strsplit(missiondirs, "\r*\n")[[1]]
+        
+        missiondirnames[grepl(pattern = "^M[0-9][0-9]$", x = missiondirnames)]
+    }
+
+    kmlfiles <- NULL
+    for (g in gliderdirnames) {
+        cat('Reading glider:', g, '\n')
+        mission <- getMissions(g)
+        filepath <- paste(url, 
+                          dirnames, 
+                          g, 
+                          mission, 
+                          '', 
+                          sep = '/')
+        for (f in filepath) {
+            files <- getURL(url = f,
+                            ftp.use.epsv = FALSE, dirlistonly = TRUE)
+            filenames <- strsplit(files, "\r*\n")[[1]]
+            kml <- filenames[grep('kml', filenames)]
+            download.file(url = paste(f,
+                                      kml,
+                                      sep = '/'),
+                          destfile = paste('ftpkml/', 
+                                           kml,
+                                           sep=''))
+        }
+    }
+
 }
+
 
 
 m <- 1:length(missionnames)
