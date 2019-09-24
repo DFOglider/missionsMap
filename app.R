@@ -8,99 +8,75 @@ library(RCurl)
 library(geosphere)
 library(XML)
 library(stringr)
-#setwd( "C:/Users/BelzileM/Documents/Gliders/Rdata/missionsMap") # comment out for other users
+library(ssh)
 
-useLocal <- TRUE
+## get remote list of files and file sizes
+session <- ssh_connect('dfo@dfoftp.ocean.dal.ca')
+cat('* looking for kml files on server\n')
+out <- ssh_exec_internal(session, 'find . -path "*.kml"')
+filepaths <- unlist(strsplit(rawToChar(out$stdout), '\n'))
+filesizes <- unlist(
+    lapply(filepaths, function(x)
+        as.numeric(rawToChar(ssh_exec_internal(session, paste('wc -c <', x))$stdout))))
+missionFiles <- filepaths[filesizes > 10000]
+missionFilenames <- unlist(lapply(strsplit(missionFiles, '/'), function(x) x[7]))
+missionSizes <- filesizes[filesizes > 10000]
 
-if (useLocal) {
-    dir <- "./KML"
-    files <- paste(dir, as.list(list.files(path = dir, pattern = '*.trk.kml')), sep = '/')
-    mlat<-mlon<- vector(mode='list',length=length(files))
-    missionnames<-vector(mode='logical',length=length(files))
-    for (i in 1:length(files)){
-        d <- xmlParse(files[i])
-        dx <- xmlToList(d)
-        dxd <- dx$Document
+## does the ftpkml directory exist?
+if (length(dir('ftpkml')) < 1) dir.create('ftpkml')
 
-        coord <- dxd[[4]]$LineString$coordinates
-        coordinates <- strsplit(coord, '\n')[[1]]
-        position <- strsplit(coordinates, ',')
+## local local files and file sizes
+localFiles <- dir('ftpkml', pattern='*.kml')
+localSizes <- file.size(dir('ftpkml', full.names=TRUE))
 
-        lon <- as.numeric(unlist(lapply(position, function(k) k[1])))
-        lat <- as.numeric(unlist(lapply(position, function(k) k[2])))
+## which files are not already downloaded?
+cat('* downloading new/changed kml files\n')
+to_download <- missionFiles[!(missionFilenames %in% localFiles)]
+jnk <- lapply(to_download, function(x) scp_download(session, x, to='ftpkml/'))
+localFiles <- dir('ftpkml', pattern='*.kml')
+localSizes <- file.size(dir('ftpkml', full.names=TRUE))
 
-        good <- !(lon == 0 & lat == 0) #remove 0,0 coordinates
+## which remote files are larger than the local ones? (i.e. updated)
+to_download <- missionFiles[!(missionSizes == localSizes)]
+jnk <- lapply(to_download, function(x) scp_download(session, x, to='ftpkml/'))
+localFiles <- dir('ftpkml', pattern='*.kml')
+localSizes <- file.size(dir('ftpkml', full.names=TRUE))
 
-        lat <- lat[good]
-        lon <- lon[good]
+ssh_disconnect(session)
 
-        good2 <- !(is.na(lon) & is.na(lat))
+dir <- "./ftpkml"
+files <- paste(dir, as.list(list.files(path = dir, pattern = '*.trk.kml')), sep = '/')
+mlat<-mlon<- vector(mode='list',length=length(files))
+missionnames<-vector(mode='logical',length=length(files))
+for (i in 1:length(files)){
+    d <- xmlParse(files[i])
+    dx <- xmlToList(d)
+    dxd <- dx$Document
 
-        lat <- lat[good2]
-        lon <- lon[good2]
-        
-        mlat[[i]]<-lat
-        mlon[[i]]<-lon
-        
-                                        # set names of missions from files
-        missionnames[i]<-str_extract(string=files[i],pattern='SEA0[0-9]{2}.M[0-9]{2}')
-    }
-} else {
-    ## url <- 'ftp://dfoftp.ocean.dal.ca/pub/dfo/glider'
-    url <- 'ftp://ftp.dfo-mpo.gc.ca/glider'
-    dirs <- getURL(paste(url,'', sep ="/"), ftp.use.epsv = FALSE, dirlistonly = TRUE)
-    dirnamess <- strsplit(dirs, "\r*\n")[[1]]
-    okdir <- which(dirnamess == 'realData')
-    dirnames <- dirnamess[okdir]
-    gliderdirs <- getURL(paste(url, 
-                               dirnames,
-                               '', sep ="/"),
-                         ftp.use.epsv = FALSE, dirlistonly = TRUE)
-    gliderdirnames <- strsplit(gliderdirs, "\r*\n")[[1]]
-    gdnok <- grepl(pattern = 'SEA0[0-9][0-9]', x = gliderdirnames) #find glider directories
-    gliderdirnames <- gliderdirnames[gdnok]
-    getMissions <- function(glider){
-        missiondirs <-  getURL(paste(url, 
-                                     dirnames, 
-                                     glider,
-                                     '', sep ="/"), 
-                               ftp.use.epsv = FALSE, dirlistonly = TRUE)
-        missiondirnames <- strsplit(missiondirs, "\r*\n")[[1]]
-        missiondirnames[grepl(pattern = "^M[0-9][0-9]$", x = missiondirnames)]
-    }
+    coord <- dxd[[4]]$LineString$coordinates
+    coordinates <- strsplit(coord, '\n')[[1]]
+    position <- strsplit(coordinates, ',')
 
-    kmlfiles <- NULL
-    for (g in gliderdirnames) {
-        cat('Reading glider:', g, '\n')
-        mission <- getMissions(g)
-        filepath <- paste(url, 
-                          dirnames, 
-                          g, 
-                          mission, 
-                          '', 
-                          sep = '/')
-        for (f in filepath) {
-            files <- getURL(url = f,
-                            ftp.use.epsv = FALSE, dirlistonly = TRUE)
-            filenames <- strsplit(files, "\r*\n")[[1]]
-            kml <- filenames[grep('kml', filenames)]
-            download.file(url = paste(f,
-                                      kml,
-                                      sep = '/'),
-                          destfile = paste('ftpkml/', 
-                                           kml,
-                                           sep=''))
-        }
-    }
+    lon <- as.numeric(unlist(lapply(position, function(k) k[1])))
+    lat <- as.numeric(unlist(lapply(position, function(k) k[2])))
 
-    ## filter by kml file size
-    files <- dir('ftpkml')
-    filesize <- file.size(dir('ftpkml', full.names=TRUE))
+    good <- !(lon == 0 & lat == 0) #remove 0,0 coordinates
+
+    lat <- lat[good]
+    lon <- lon[good]
+
+    good2 <- !(is.na(lon) & is.na(lat))
+
+    lat <- lat[good2]
+    lon <- lon[good2]
     
+    mlat[[i]]<-lat
+    mlon[[i]]<-lon
+    
+                                        # set names of missions from files
+    missionnames[i]<-str_extract(string=files[i],pattern='SEA0[0-9]{2}.M[0-9]{2}')
 }
-
-
-
+    
 m <- 1:length(missionnames)
 names(m) <- missionnames
 
