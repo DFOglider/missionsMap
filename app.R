@@ -66,7 +66,6 @@ if (useLocal) {
                                      '', sep ="/"), 
                                ftp.use.epsv = FALSE, dirlistonly = TRUE)
         missiondirnames <- strsplit(missiondirs, "\r*\n")[[1]]
-        
         missiondirnames[grepl(pattern = "^M[0-9][0-9]$", x = missiondirnames)]
     }
 
@@ -94,6 +93,10 @@ if (useLocal) {
         }
     }
 
+    ## filter by kml file size
+    files <- dir('ftpkml')
+    filesize <- file.size(dir('ftpkml', full.names=TRUE))
+    
 }
 
 
