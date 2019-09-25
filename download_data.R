@@ -8,9 +8,18 @@ filepaths <- unlist(strsplit(rawToChar(out$stdout), '\n'))
 filesizes <- unlist(
     lapply(filepaths, function(x)
         as.numeric(rawToChar(ssh_exec_internal(session, paste('wc -c <', x))$stdout))))
+lastmodified <- as.POSIXct(unlist(
+    lapply(filepaths, function(x)
+        as.POSIXct(rawToChar(ssh_exec_internal(session, paste("stat -c '%y'", x))$stdout)))),
+    origin='1970-01-01')
 missionFiles <- filepaths[filesizes > 10000]
 missionFilenames <- unlist(lapply(strsplit(missionFiles, '/'), function(x) x[7]))
 missionSizes <- filesizes[filesizes > 10000]
+missionDates <- lastmodified[filesizes > 10000]
+
+missions <- data.frame(missionFiles, missionFilenames, missionSizes, missionDates,
+                       stringsAsFactors = FALSE)
+save(file='missions.rda', missions)
 
 ## does the ftpkml directory exist?
 if (length(dir('ftpkml')) < 1) dir.create('ftpkml')

@@ -8,41 +8,8 @@ library(RCurl)
 library(geosphere)
 library(XML)
 library(stringr)
-library(ssh)
 
-## ## get remote list of files and file sizes
-## session <- ssh_connect('dfo@dfoftp.ocean.dal.ca')
-## cat('* looking for kml files on server\n')
-## out <- ssh_exec_internal(session, 'find . -path "*.kml"')
-## filepaths <- unlist(strsplit(rawToChar(out$stdout), '\n'))
-## filesizes <- unlist(
-##     lapply(filepaths, function(x)
-##         as.numeric(rawToChar(ssh_exec_internal(session, paste('wc -c <', x))$stdout))))
-## missionFiles <- filepaths[filesizes > 10000]
-## missionFilenames <- unlist(lapply(strsplit(missionFiles, '/'), function(x) x[7]))
-## missionSizes <- filesizes[filesizes > 10000]
-
-## ## does the ftpkml directory exist?
-## if (length(dir('ftpkml')) < 1) dir.create('ftpkml')
-
-## ## local local files and file sizes
-## localFiles <- dir('ftpkml', pattern='*.kml')
-## localSizes <- file.size(dir('ftpkml', full.names=TRUE))
-
-## ## which files are not already downloaded?
-## cat('* downloading new/changed kml files\n')
-## to_download <- missionFiles[!(missionFilenames %in% localFiles)]
-## jnk <- lapply(to_download, function(x) scp_download(session, x, to='ftpkml/'))
-## localFiles <- dir('ftpkml', pattern='*.kml')
-## localSizes <- file.size(dir('ftpkml', full.names=TRUE))
-
-## ## which remote files are larger than the local ones? (i.e. updated)
-## to_download <- missionFiles[!(missionSizes == localSizes)]
-## jnk <- lapply(to_download, function(x) scp_download(session, x, to='ftpkml/'))
-## localFiles <- dir('ftpkml', pattern='*.kml')
-## localSizes <- file.size(dir('ftpkml', full.names=TRUE))
-
-## ssh_disconnect(session)
+load('missions.rda')
 
 dir <- "./ftpkml"
 files <- paste(dir, as.list(list.files(path = dir, pattern = '*.trk.kml')), sep = '/')
@@ -73,12 +40,14 @@ for (i in 1:length(files)){
     mlat[[i]]<-lat
     mlon[[i]]<-lon
     
-                                        # set names of missions from files
+    ## set names of missions from files
     missionnames[i]<-str_extract(string=files[i],pattern='SEA0[0-9]{2}.M[0-9]{2}')
 }
     
 m <- 1:length(missionnames)
 names(m) <- missionnames
+choices <- 1:length(missionnames)
+names(choices) <- paste(names(m), format(missions$missionDates, '%Y-%m-%d'))
 
 # halifax line stations
 hfxlon <- c(-63.450000, -63.317000, -62.883000, -62.451000, -62.098000, -61.733000, -61.393945, -62.7527, -61.8326)
@@ -97,18 +66,18 @@ mcolors <- oce.colorsJet(n=length(files))
 ui <- fluidPage(
 
   fluidRow(
-      column(2, wellPanel(
+      column(3, wellPanel(
                     checkboxInput('selectAll', 'Select all/none'),
                     checkboxGroupInput("mission", 
                                        h3("Glider missions"), 
-                                       choices = m),
+                                       choices=choices),
                     actionButton(inputId = 'plot',
                                  label = 'Plot tracks')
                 )#closes wellpanel
              
              ), #closes column
       
-      column(10,
+      column(9,
              leafletOutput("map", height = '620px'))
   ) #closes fluidRow  
 ) #closes ui
@@ -120,8 +89,8 @@ server <- function(input, output, session) {
 
   observe({
       updateCheckboxGroupInput(
-          session, 'mission', choices = m,
-          selected = if (input$selectAll) m
+          session, 'mission', choices = choices,
+          selected = if (input$selectAll) choices
       )
   })
     
