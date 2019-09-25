@@ -48,6 +48,9 @@ m <- 1:length(missionnames)
 names(m) <- missionnames
 choices <- 1:length(missionnames)
 names(choices) <- paste(names(m), format(missions$missionDates, '%Y-%m-%d'))
+o <- order(missions$missionDates)
+m <- m[o]
+choices <- choices[o]
 
 # halifax line stations
 hfxlon <- c(-63.450000, -63.317000, -62.883000, -62.451000, -62.098000, -61.733000, -61.393945, -62.7527, -61.8326)
