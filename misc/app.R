@@ -2,23 +2,23 @@
 library(shiny)
 
 new_data <- function() {
-    d <- rnorm(100)
-    write.csv(d, file='data.csv')
+    d <- list(a=1:100, b=rnorm(100))
+    saveRDS(file='data.rds', d)
 }
 new_data()
 
 server <- function(input, output, session) {
     data <- reactiveFileReader(1000,
-                                         session,
-                                         'data.csv',
-                                         read.csv)
+                               session,
+                               'data.rds',
+                               readRDS)
 
     observeEvent(input$newdata, {
         new_data()
     })
     
     output$plot1 <- renderPlot({
-        hist(data()[[2]])
+        hist(data()[['b']])
     })
 }
 
