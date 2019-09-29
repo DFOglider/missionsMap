@@ -67,7 +67,8 @@ server <- function(input, output, session) {
         ok <- as.numeric(input$mission)
         df <- data.frame(longitude=unlist(d$mlon[ok]),
                          latitude=unlist(d$mlat[ok]),
-                         group=unlist(lapply(1:length(d$mlat[ok]),function(k) rep(k,length(d$mlat[[ok[k]]])))))
+                         group=unlist(lapply(1:length(d$mlat[ok]),
+                                             function(k) rep(k,length(d$mlat[[ok[k]]])))))
         ## leaflet map plot
         
         ## map groups
@@ -98,7 +99,7 @@ server <- function(input, output, session) {
 
     ##map_kml
     
-    
+    ## Draw selected mission lines
     {
         for(i in unique(df$group)){
             . <- addPolylines(., lng = df$longitude[df$group == i],
@@ -108,10 +109,23 @@ server <- function(input, output, session) {
         }
         return (.)
     } %>%
+
+    ## Draw selection mission "last" points
+    {
+        for(i in unique(df$group)){
+            . <- addCircleMarkers(., lng = tail(df$longitude[df$group == i], 1),
+                              lat = tail(df$latitude[df$group == i], 1),
+                              fillColor = mcolors[ok[i]],
+                              radius = 8, fillOpacity = 1, stroke = TRUE,
+                              popup='Last point')
+        }
+        return (.)
+    } %>%
+    
     ## group-less map items
     ## halifax line
     addCircleMarkers(lng = hfxlon, lat = hfxlat,
-                     radius = 7, fillOpacity = 1, stroke = F,
+                     radius = 7, fillOpacity = 1, stroke = FALSE,
                      color = 'gray48',
                      popup = paste(sep = "<br/>",
                                         #paste0("HL", as.character(1:7)),
@@ -122,7 +136,7 @@ server <- function(input, output, session) {
                      group = map_wp) %>%
                                         # bonavista line
     addCircleMarkers(lng = bblon, lat = bblat,
-                     radius = 7, fillOpacity = 1, stroke = F,
+                     radius = 7, fillOpacity = 1, stroke = FALSE,
                      color = 'gray48',
                      popup = paste(sep = "<br/>",
                                    paste0('BB', seq(1,15)),
