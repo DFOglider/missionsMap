@@ -1,4 +1,6 @@
 library(ssh)
+library(XML)
+library(stringr)
 
 ## get remote list of files and file sizes
 session <- ssh_connect('dfo@dfoftp.ocean.dal.ca')
@@ -16,10 +18,6 @@ missionFiles <- filepaths[filesizes > 10000]
 missionFilenames <- unlist(lapply(strsplit(missionFiles, '/'), function(x) x[7]))
 missionSizes <- filesizes[filesizes > 10000]
 missionDates <- lastmodified[filesizes > 10000]
-
-missions <- data.frame(missionFiles, missionFilenames, missionSizes, missionDates,
-                       stringsAsFactors = FALSE)
-save(file='missions.rda', missions)
 
 ## does the ftpkml directory exist?
 if (length(dir('ftpkml')) < 1) dir.create('ftpkml')
@@ -42,3 +40,49 @@ localFiles <- dir('ftpkml', pattern='*.kml')
 localSizes <- file.size(dir('ftpkml', full.names=TRUE))
 
 ssh_disconnect(session)
+
+dir <- "./ftpkml"
+files <- paste(dir, as.list(list.files(path = dir, pattern = '*.trk.kml')), sep = '/')
+mlat<-mlon<- vector(mode='list',length=length(files))
+missionnames<-vector(mode='logical',length=length(files))
+for (i in 1:length(files)){
+    d <- xmlParse(files[i])
+    dx <- xmlToList(d)
+    dxd <- dx$Document
+
+    coord <- dxd[[4]]$LineString$coordinates
+    coordinates <- strsplit(coord, '\n')[[1]]
+    position <- strsplit(coordinates, ',')
+
+    lon <- as.numeric(unlist(lapply(position, function(k) k[1])))
+    lat <- as.numeric(unlist(lapply(position, function(k) k[2])))
+
+    good <- !(lon == 0 & lat == 0) #remove 0,0 coordinates
+
+    lat <- lat[good]
+    lon <- lon[good]
+
+    good2 <- !(is.na(lon) & is.na(lat))
+
+    lat <- lat[good2]
+    lon <- lon[good2]
+    
+    mlat[[i]]<-lat
+    mlon[[i]]<-lon
+    
+    ## set names of missions from files
+    missionnames[i]<-str_extract(string=files[i],pattern='SEA0[0-9]{2}.M[0-9]{2}')
+}
+    
+m <- 1:length(missionnames)
+names(m) <- missionnames
+choices <- 1:length(missionnames)
+names(choices) <- paste(names(m), format(missionDates, '%Y-%m-%d'))
+o <- order(missionDates)
+m <- m[o]
+choices <- choices[o]
+
+missions <- list(missionFiles=missionFiles, missionFilenames=missionFilenames,
+                 missionSizes=missionSizes, missionDates=missionDates,
+                 choices=choices, mlon=mlon, mlat=mlat)
+saveRDS(file='missions.rds', missions)

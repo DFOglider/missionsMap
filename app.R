@@ -9,177 +9,140 @@ library(geosphere)
 library(XML)
 library(stringr)
 
-load('missions.rda')
+missions <- readRDS('missions.rds')
 
-dir <- "./ftpkml"
-files <- paste(dir, as.list(list.files(path = dir, pattern = '*.trk.kml')), sep = '/')
-mlat<-mlon<- vector(mode='list',length=length(files))
-missionnames<-vector(mode='logical',length=length(files))
-for (i in 1:length(files)){
-    d <- xmlParse(files[i])
-    dx <- xmlToList(d)
-    dxd <- dx$Document
-
-    coord <- dxd[[4]]$LineString$coordinates
-    coordinates <- strsplit(coord, '\n')[[1]]
-    position <- strsplit(coordinates, ',')
-
-    lon <- as.numeric(unlist(lapply(position, function(k) k[1])))
-    lat <- as.numeric(unlist(lapply(position, function(k) k[2])))
-
-    good <- !(lon == 0 & lat == 0) #remove 0,0 coordinates
-
-    lat <- lat[good]
-    lon <- lon[good]
-
-    good2 <- !(is.na(lon) & is.na(lat))
-
-    lat <- lat[good2]
-    lon <- lon[good2]
-    
-    mlat[[i]]<-lat
-    mlon[[i]]<-lon
-    
-    ## set names of missions from files
-    missionnames[i]<-str_extract(string=files[i],pattern='SEA0[0-9]{2}.M[0-9]{2}')
-}
-    
-m <- 1:length(missionnames)
-names(m) <- missionnames
-choices <- 1:length(missionnames)
-names(choices) <- paste(names(m), format(missions$missionDates, '%Y-%m-%d'))
-o <- order(missions$missionDates)
-m <- m[o]
-choices <- choices[o]
-
-# halifax line stations
+## halifax line stations
 hfxlon <- c(-63.450000, -63.317000, -62.883000, -62.451000, -62.098000, -61.733000, -61.393945, -62.7527, -61.8326)
 hfxlat <- c(44.400001, 44.267001, 43.883001, 43.479000, 43.183000, 42.850000, 42.531138, 43.7635, 42.9402)
 
-
-
-# bonavista line stations (BB01 - BB15)
+## bonavista line stations (BB01 - BB15)
 bblon <- c(-52.967, -52.750, -52.650, -52.400, -52.067, -51.830, -51.542, -51.280, -51.017, -50.533, -50.017, -49.500, -49, -48.472, -47.947)
 bblat <- c(48.7300, 48.800, 48.833, 48.917, 49.025, 49.100, 49.190, 49.280, 49.367, 49.517, 49.683, 49.850, 50.000, 50.177, 50.332)
 
-mcolors <- oce.colorsJet(n=length(files))
-#mcolors <- oce.colorsCDOM(n=length(files))
+mcolors <- oce.colorsJet(n=length(missions$choices))
 
-# Define UI for app that draws a histogram ----
+                                        # Define UI for app that draws a histogram ----
 ui <- fluidPage(
 
-  fluidRow(
-      column(3, wellPanel(
-                    checkboxInput('selectAll', 'Select all/none'),
-                    checkboxGroupInput("mission", 
-                                       h3("Glider missions"), 
-                                       choices=choices),
-                    actionButton(inputId = 'plot',
-                                 label = 'Plot tracks')
-                )#closes wellpanel
-             
-             ), #closes column
-      
-      column(9,
-             leafletOutput("map", height = '620px'))
-  ) #closes fluidRow  
+    fluidRow(
+        column(3, wellPanel(
+                      checkboxInput('selectAll', 'Select all/none'),
+                      checkboxGroupInput("mission", 
+                                         h3("Glider missions"), 
+                                         choices=missions$choices),
+                      actionButton(inputId = 'plot',
+                                   label = 'Plot tracks')
+                  )#closes wellpanel
+               
+               ), #closes column
+        
+        column(9,
+               leafletOutput("map", height = '620px'))
+    ) #closes fluidRow  
 ) #closes ui
 
 
-# Define server
+## Define server
 server <- function(input, output, session) {
-  state <- reactiveValues()
+    state <- reactiveValues()
 
-  observe({
-      updateCheckboxGroupInput(
-          session, 'mission', choices = choices,
-          selected = if (input$selectAll) choices
-      )
-  })
+    data <- reactiveFileReader(10000,
+                               session,
+                               'missions.rds',
+                               readRDS)
     
-  # download data and load when actionButton clicked
-  # make plots too
-  observeEvent(input$plot,{
-   
-    ok <- as.numeric(input$mission)
-    df <- data.frame(longitude=unlist(mlon[ok]),
-                     latitude=unlist(mlat[ok]),
-                     group=unlist(lapply(1:length(mlat[ok]),function(k) rep(k,length(mlat[[ok[k]]])))))
-    # leaflet map plot
-    
-    # map groups
-    map_wp <- "Line waypoints"
-    
-    map <- leaflet(as.data.frame(cbind(mlon[[1]], mlat[[1]])))%>%
-        addProviderTiles(providers$Esri.OceanBasemap) %>%
-        fitBounds(lng1 = max(mlon[[1]], na.rm = TRUE) - 0.2,
-                  lat1 = min(mlat[[1]], na.rm = TRUE) + 0.2,
-                  lng2 = min(mlon[[1]], na.rm = TRUE) + 0.2,
-                  lat2 = max(mlat[[1]], na.rm = TRUE) - 0.2) %>%
-      # use NOAA graticules
-      # not sure if it does much, but it allows to zoom further in
-      # no bathy when zoomed less than 500m though.
-      addWMSTiles(
-        "https://maps.ngdc.noaa.gov/arcgis/services/graticule/MapServer/WMSServer/",
-        layers = c("1-degree grid", "5-degree grid"),
-        options = WMSTileOptions(format = "image/png8", transparent = TRUE),
-        attribution = "NOAA") %>%
-      # add extra map features
-      #addMouseCoordinates(style = 'basic')%>%
-      addScaleBar(position = 'topright')%>%
-      addMeasure(primaryLengthUnit = "kilometers",
-                 secondaryLengthUnit = 'miles',
-                 primaryAreaUnit = "hectares",
-                 secondaryAreaUnit="acres",
-                 position = 'bottomleft') %>%
+    observe({
+        updateCheckboxGroupInput(
+            session, 'mission', choices = data()[['choices']],
+            selected = if (input$selectAll) data()[['choices']]
+        )
+    })
 
-      #map_kml
-      
-     
-      {
-       for(i in unique(df$group)){
-      . <- addPolylines(., lng = df$longitude[df$group == i],
-                            lat = df$latitude[df$group == i],
-                            col=mcolors[ok[i]],
-                            weight = 4, opacity = 1)
-                     }
-                     return (.)
-                   } %>%
-      # group-less map items
-      # halifax line
-      addCircleMarkers(lng = hfxlon, lat = hfxlat,
-                       radius = 7, fillOpacity = 1, stroke = F,
-                       color = 'gray48',
-                       popup = paste(sep = "<br/>",
-                                     #paste0("HL", as.character(1:7)),
-                                     c("HL1","HL2","HL3","HL4","HL5","HL6","HL7","HL3.3", "HL5.5"),
-                                     paste0(as.character(round(hfxlat,4)), ',', as.character(round(hfxlon,3)))),
-                       # label = paste0("HL", 1:7))
-                       label = c("HL1","HL2","HL3","HL4","HL5","HL6","HL7","HL3.3", "HL5.5"),
-                       group = map_wp)%>%
-      # bonavista line
-      addCircleMarkers(lng = bblon, lat = bblat,
-                       radius = 7, fillOpacity = 1, stroke = F,
-                       color = 'gray48',
-                       popup = paste(sep = "<br/>",
-                                     paste0('BB', seq(1,15)),
-                                     paste0(as.character(round(bblat, 4)), ',', as.character(round(bblon, 3)))),
-                       label = paste0('BB', seq(1,15)),
-                       group = map_wp)%>%
-     
-      
-      # layer control legend
-      addLayersControl(overlayGroups = c(map_wp),
-                       #map_track_kml),
-                       options = layersControlOptions(collapsed = FALSE, autoZIndex = FALSE),
-                       position = 'bottomright') %>%
-      setView(tail(mlon[[1]], 1), tail(mlat[[1]], 1), zoom=11)
-    output$map <- renderLeaflet(map) #closes leafletplot
+    ## download data and load when actionButton clicked
+    ## make plots too
+    observeEvent(input$plot,{
 
+        d <- data()
+        
+        ok <- as.numeric(input$mission)
+        df <- data.frame(longitude=unlist(d$mlon[ok]),
+                         latitude=unlist(d$mlat[ok]),
+                         group=unlist(lapply(1:length(d$mlat[ok]),function(k) rep(k,length(d$mlat[[ok[k]]])))))
+        ## leaflet map plot
+        
+        ## map groups
+        map_wp <- "Line waypoints"
+        
+        map <- leaflet(as.data.frame(cbind(d$mlon[[1]], d$mlat[[1]]))) %>%
+            addProviderTiles(providers$Esri.OceanBasemap) %>%
+            fitBounds(lng1 = max(d$mlon[[1]], na.rm = TRUE) - 0.2,
+                      lat1 = min(d$mlat[[1]], na.rm = TRUE) + 0.2,
+                      lng2 = min(d$mlon[[1]], na.rm = TRUE) + 0.2,
+                      lat2 = max(d$mlat[[1]], na.rm = TRUE) - 0.2) %>%
+            ## use NOAA graticules
+            ## not sure if it does much, but it allows to zoom further in
+            ## no bathy when zoomed less than 500m though.
+            addWMSTiles(
+                "https://maps.ngdc.noaa.gov/arcgis/services/graticule/MapServer/WMSServer/",
+                layers = c("1-degree grid", "5-degree grid"),
+                options = WMSTileOptions(format = "image/png8", transparent = TRUE),
+                attribution = "NOAA") %>%
+                                        # add extra map features
+                                        #addMouseCoordinates(style = 'basic')%>%
+            addScaleBar(position = 'topright')%>%
+            addMeasure(primaryLengthUnit = "kilometers",
+                       secondaryLengthUnit = 'miles',
+                       primaryAreaUnit = "hectares",
+                       secondaryAreaUnit="acres",
+                       position = 'bottomleft') %>%
+
+    ##map_kml
     
-  }) #closes download observeEvent
-  
+    
+    {
+        for(i in unique(df$group)){
+            . <- addPolylines(., lng = df$longitude[df$group == i],
+                              lat = df$latitude[df$group == i],
+                              col=mcolors[ok[i]],
+                              weight = 4, opacity = 1)
+        }
+        return (.)
+    } %>%
+    ## group-less map items
+    ## halifax line
+    addCircleMarkers(lng = hfxlon, lat = hfxlat,
+                     radius = 7, fillOpacity = 1, stroke = F,
+                     color = 'gray48',
+                     popup = paste(sep = "<br/>",
+                                        #paste0("HL", as.character(1:7)),
+                                   c("HL1","HL2","HL3","HL4","HL5","HL6","HL7","HL3.3", "HL5.5"),
+                                   paste0(as.character(round(hfxlat,4)), ',', as.character(round(hfxlon,3)))),
+                                        # label = paste0("HL", 1:7))
+                     label = c("HL1","HL2","HL3","HL4","HL5","HL6","HL7","HL3.3", "HL5.5"),
+                     group = map_wp) %>%
+                                        # bonavista line
+    addCircleMarkers(lng = bblon, lat = bblat,
+                     radius = 7, fillOpacity = 1, stroke = F,
+                     color = 'gray48',
+                     popup = paste(sep = "<br/>",
+                                   paste0('BB', seq(1,15)),
+                                   paste0(as.character(round(bblat, 4)), ',', as.character(round(bblon, 3)))),
+                     label = paste0('BB', seq(1,15)),
+                     group = map_wp) %>%
+    
+    
+    ## layer control legend
+    addLayersControl(overlayGroups = c(map_wp),
+                                        #map_track_kml),
+                     options = layersControlOptions(collapsed = FALSE, autoZIndex = FALSE),
+                     position = 'bottomright') %>%
+    setView(tail(d$mlon[[1]], 1), tail(d$mlat[[1]], 1), zoom=11)
+        output$map <- renderLeaflet(map) #closes leafletplot
+
+        
+    }) #closes download observeEvent
+    
 }
 
-# Create Shiny app ----
+## Create Shiny app ----
 shinyApp(ui = ui, server = server)
