@@ -150,7 +150,7 @@ server <- function(input, output, session) {
                                         #map_track_kml),
                      options = layersControlOptions(collapsed = FALSE, autoZIndex = FALSE),
                      position = 'bottomright') %>%
-    setView(tail(d$mlon[[1]], 1), tail(d$mlat[[1]], 1), zoom=11)
+    setView(tail(d$mlon[[1]], 1), tail(d$mlat[[1]], 1), zoom=8)
         output$map <- renderLeaflet(map) #closes leafletplot
 
         
