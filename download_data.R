@@ -82,7 +82,7 @@ o <- order(missionDates)
 m <- m[o]
 choices <- choices[o]
 
-missions <- list(missionFiles=missionFiles, missionFilenames=missionFilenames,
-                 missionSizes=missionSizes, missionDates=missionDates,
+missions <- list(missionFiles=missionFiles[o], missionFilenames=missionFilenames[o],
+                 missionSizes=missionSizes[o], missionDates=missionDates[o],
                  choices=choices, mlon=mlon, mlat=mlat)
 saveRDS(file='missions.rds', missions)

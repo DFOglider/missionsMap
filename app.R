@@ -10,6 +10,7 @@ library(XML)
 library(stringr)
 
 missions <- readRDS('missions.rds')
+current <- abs(as.numeric(missions$missionDates) - as.numeric(Sys.time())) < 3*86400
 
 ## halifax line stations
 hfxlon <- c(-63.450000, -63.317000, -62.883000, -62.451000, -62.098000, -61.733000, -61.393945, -62.7527, -61.8326)
@@ -29,7 +30,8 @@ ui <- fluidPage(
                       checkboxInput('selectAll', 'Select all/none'),
                       checkboxGroupInput("mission", 
                                          h3("Glider missions"), 
-                                         choices=missions$choices),
+                                         choices=missions$choices,
+                                         selected = missions$choices[current]),
                       actionButton(inputId = 'plot',
                                    label = 'Plot tracks')
                   )#closes wellpanel
