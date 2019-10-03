@@ -85,10 +85,10 @@ server <- function(input, output, session) {
         
         map <- leaflet(as.data.frame(cbind(d$mlon[[1]], d$mlat[[1]]))) %>%
             addProviderTiles(providers$Esri.OceanBasemap) %>%
-            fitBounds(lng1 = max(d$mlon[[1]], na.rm = TRUE) - 0.2,
-                      lat1 = min(d$mlat[[1]], na.rm = TRUE) + 0.2,
-                      lng2 = min(d$mlon[[1]], na.rm = TRUE) + 0.2,
-                      lat2 = max(d$mlat[[1]], na.rm = TRUE) - 0.2) %>%
+            fitBounds(lng1 = max(df$longitude, na.rm = TRUE) - 0.2,
+                      lat1 = min(df$latitude, na.rm = TRUE) + 0.2,
+                      lng2 = min(df$longitude, na.rm = TRUE) + 0.2,
+                      lat2 = max(df$latitude, na.rm = TRUE) - 0.2) %>%
             ## use NOAA graticules
             ## not sure if it does much, but it allows to zoom further in
             ## no bathy when zoomed less than 500m though.
@@ -135,7 +135,7 @@ server <- function(input, output, session) {
     ## group-less map items
     ## halifax line
     addCircleMarkers(lng = hfxlon, lat = hfxlat,
-                     radius = 7, fillOpacity = 1, stroke = FALSE,
+                     radius = 4, fillOpacity = 0.5, stroke = FALSE,
                      color = 'gray48',
                      popup = paste(sep = "<br/>",
                                         #paste0("HL", as.character(1:7)),
@@ -146,7 +146,7 @@ server <- function(input, output, session) {
                      group = map_wp) %>%
                                         # bonavista line
     addCircleMarkers(lng = bblon, lat = bblat,
-                     radius = 7, fillOpacity = 1, stroke = FALSE,
+                     radius = 4, fillOpacity = 0.5, stroke = FALSE,
                      color = 'gray48',
                      popup = paste(sep = "<br/>",
                                    paste0('BB', seq(1,15)),
@@ -159,8 +159,7 @@ server <- function(input, output, session) {
     addLayersControl(overlayGroups = c(map_wp),
                                         #map_track_kml),
                      options = layersControlOptions(collapsed = FALSE, autoZIndex = FALSE),
-                     position = 'bottomright') %>%
-    setView(tail(d$mlon[[1]], 1), tail(d$mlat[[1]], 1), zoom=8)
+                     position = 'bottomright') #%>%
         output$map <- renderLeaflet(map) #closes leafletplot
 
         
