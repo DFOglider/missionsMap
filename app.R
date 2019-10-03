@@ -27,13 +27,16 @@ ui <- fluidPage(
 
     fluidRow(
         column(3, wellPanel(
-                      checkboxInput('selectAll', 'Select all/current'),
+                      checkboxInput('selectAll', 'Select All/Current'),
+                      radioButtons('glider', 'Glider',
+                                   choices=c('None', sort(unique(missions$glider))),
+                                   selected='None'),
+                      actionButton(inputId = 'plot',
+                                   label = 'Plot tracks'),
                       checkboxGroupInput("mission", 
                                          h3("Glider missions"), 
                                          choices=missions$choices,
-                                         selected = missions$choices[current]),
-                      actionButton(inputId = 'plot',
-                                   label = 'Plot tracks')
+                                         selected = missions$choices[current])
                   )#closes wellpanel
                
                ), #closes column
@@ -57,6 +60,24 @@ server <- function(input, output, session) {
         updateCheckboxGroupInput(
             session, 'mission', choices = data()[['choices']],
             selected = if (input$selectAll) data()[['choices']] else data()[['choices']][current]
+        )
+    })
+    observe({
+        updateCheckboxGroupInput(
+            session, 'mission', choices = data()[['choices']],
+            selected = if (input$glider == 'SEA019') {
+                           data()[['choices']][data()[['glider']] == 'SEA019']
+                       } else if (input$glider == 'SEA021') {
+                           data()[['choices']][data()[['glider']] == 'SEA021']
+                       } else if (input$glider == 'SEA022') {
+                           data()[['choices']][data()[['glider']] == 'SEA022']
+                       } else if (input$glider == 'SEA024') {
+                           data()[['choices']][data()[['glider']] == 'SEA024']
+                       } else if (input$glider == 'SEA032') {
+                           data()[['choices']][data()[['glider']] == 'SEA032']
+                       } else {
+                           data()[['choices']][current]
+                       }
         )
     })
 

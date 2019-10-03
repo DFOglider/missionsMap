@@ -78,11 +78,13 @@ m <- 1:length(missionnames)
 names(m) <- missionnames
 choices <- 1:length(missionnames)
 names(choices) <- paste(names(m), format(missionDates, '%Y-%m-%d'))
-o <- order(missionDates)
+o <- order(missionDates, decreasing = TRUE)
 m <- m[o]
 choices <- choices[o]
+glider <- substr(unlist(lapply(strsplit(names(choices), ' '), function(x) x[1])), 1, 6)
 
 missions <- list(missionFiles=missionFiles[o], missionFilenames=missionFilenames[o],
                  missionSizes=missionSizes[o], missionDates=missionDates[o],
-                 choices=choices, mlon=mlon, mlat=mlat)
+                 choices=choices, glider=glider,
+                 mlon=mlon, mlat=mlat)
 saveRDS(file='missions.rds', missions)
