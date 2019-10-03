@@ -81,7 +81,7 @@ server <- function(input, output, session) {
         ## leaflet map plot
         
         ## map groups
-        map_wp <- "Line waypoints"
+        map_wp <- "Monitoring Line Stations"
         
         map <- leaflet(as.data.frame(cbind(d$mlon[[1]], d$mlat[[1]]))) %>%
             addProviderTiles(providers$Esri.OceanBasemap) %>%
