@@ -103,6 +103,7 @@ server <- function(input, output, session) {
         
         ## map groups
         map_wp <- "Monitoring Line Stations"
+        last_point <- "Last Point"
         
         map <- leaflet(as.data.frame(cbind(d$mlon[[1]], d$mlat[[1]]))) %>%
             addProviderTiles(providers$Esri.OceanBasemap) %>%
@@ -148,7 +149,8 @@ server <- function(input, output, session) {
                               lat = tail(df$latitude[df$group == i], 1),
                               fillColor = mcolors[ok[i]],
                               radius = 8, fillOpacity = 1, stroke = TRUE,
-                              popup=paste('Last point', head(df$lastPoint[df$group == i], 1)))
+                              popup=paste('Last point', head(df$lastPoint[df$group == i], 1)),
+                              group=last_point)
         }
         return (.)
     } %>%
@@ -177,7 +179,7 @@ server <- function(input, output, session) {
     
     
     ## layer control legend
-    addLayersControl(overlayGroups = c(map_wp),
+    addLayersControl(overlayGroups = c(map_wp, last_point),
                                         #map_track_kml),
                      options = layersControlOptions(collapsed = FALSE, autoZIndex = FALSE),
                      position = 'bottomright') #%>%
