@@ -27,7 +27,7 @@ ui <- fluidPage(
 
     fluidRow(
         column(3, wellPanel(
-                      checkboxInput('selectAll', 'Select all/none'),
+                      checkboxInput('selectAll', 'Select all/current'),
                       checkboxGroupInput("mission", 
                                          h3("Glider missions"), 
                                          choices=missions$choices,
@@ -56,7 +56,7 @@ server <- function(input, output, session) {
     observe({
         updateCheckboxGroupInput(
             session, 'mission', choices = data()[['choices']],
-            selected = if (input$selectAll) data()[['choices']]
+            selected = if (input$selectAll) data()[['choices']] else data()[['choices']][current]
         )
     })
 
@@ -70,7 +70,10 @@ server <- function(input, output, session) {
         df <- data.frame(longitude=unlist(d$mlon[ok]),
                          latitude=unlist(d$mlat[ok]),
                          group=unlist(lapply(1:length(d$mlat[ok]),
-                                             function(k) rep(k,length(d$mlat[[ok[k]]])))))
+                                             function(k) rep(k, length(d$mlat[[ok[k]]])))),
+                         mission=unlist(lapply(ok,
+                                               function(k) rep(names(d$choices[d$choices == k]), length(d$mlat[[k]])))))
+        df$mission <- as.character(df$mission)
         ## leaflet map plot
         
         ## map groups
@@ -107,7 +110,8 @@ server <- function(input, output, session) {
             . <- addPolylines(., lng = df$longitude[df$group == i],
                               lat = df$latitude[df$group == i],
                               col=mcolors[ok[i]],
-                              weight = 4, opacity = 1)
+                              weight = 4, opacity = 1,
+                              popup=head(df$mission[df$group == i], 1))
         }
         return (.)
     } %>%
