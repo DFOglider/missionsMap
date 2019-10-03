@@ -29,8 +29,8 @@ ui <- fluidPage(
         column(3, wellPanel(
                       checkboxInput('selectAll', 'Select All/Current'),
                       radioButtons('glider', 'Glider',
-                                   choices=c('None', sort(unique(missions$glider))),
-                                   selected='None'),
+                                   choices=c('Current Missions', sort(unique(missions$glider))),
+                                   selected='Current Missions'),
                       actionButton(inputId = 'plot',
                                    label = 'Plot tracks'),
                       checkboxGroupInput("mission", 
