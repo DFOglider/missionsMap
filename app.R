@@ -72,8 +72,12 @@ server <- function(input, output, session) {
                          group=unlist(lapply(1:length(d$mlat[ok]),
                                              function(k) rep(k, length(d$mlat[[ok[k]]])))),
                          mission=unlist(lapply(ok,
-                                               function(k) rep(names(d$choices[d$choices == k]), length(d$mlat[[k]])))))
+                                               function(k) rep(names(d$choices[d$choices == k]), length(d$mlat[[k]])))),
+                         lastPoint=unlist(lapply(ok,
+                                                 function(k) rep(format(d$missionDates)[d$choices == k], length(d$mlat[[k]])))))
+
         df$mission <- as.character(df$mission)
+        df$lastPoint <- as.character(df$lastPoint)
         ## leaflet map plot
         
         ## map groups
@@ -123,7 +127,7 @@ server <- function(input, output, session) {
                               lat = tail(df$latitude[df$group == i], 1),
                               fillColor = mcolors[ok[i]],
                               radius = 8, fillOpacity = 1, stroke = TRUE,
-                              popup='Last point')
+                              popup=paste('Last point', head(df$lastPoint[df$group == i], 1)))
         }
         return (.)
     } %>%
