@@ -2,6 +2,8 @@ library(ssh)
 library(XML)
 library(stringr)
 
+filterSize <- 7000
+
 ## get remote list of files and file sizes
 session <- ssh_connect('dfo@dfoftp.ocean.dal.ca')
 cat('* looking for kml files on server\n')
@@ -14,10 +16,10 @@ lastmodified <- as.POSIXct(unlist(
     lapply(filepaths, function(x)
         as.POSIXct(rawToChar(ssh_exec_internal(session, paste("stat -c '%y'", x))$stdout)))),
     origin='1970-01-01')
-missionFiles <- filepaths[filesizes > 10000]
+missionFiles <- filepaths[filesizes > filterSize]
 missionFilenames <- unlist(lapply(strsplit(missionFiles, '/'), function(x) x[7]))
-missionSizes <- filesizes[filesizes > 10000]
-missionDates <- lastmodified[filesizes > 10000]
+missionSizes <- filesizes[filesizes > filterSize]
+missionDates <- lastmodified[filesizes > filterSize]
 
 ## does the ftpkml directory exist?
 if (length(dir('ftpkml')) < 1) dir.create('ftpkml')
